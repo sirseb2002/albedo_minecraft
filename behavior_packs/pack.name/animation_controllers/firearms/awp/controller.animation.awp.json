@@ -1,0 +1,157 @@
+// Coded by @JustAsh0005 for ActualGuns (for both 2D and 3D version), you aren't allowed to Edit, alter, modify, adapt, translate or otherwise change the whole code. 
+
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.awp_setup": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{  "awp": "q.get_equipped_item_name(0) == 'awp' && (q.scoreboard('awp') >= 1 && q.scoreboard('awp') <= 10)" },
+						{  "awp_empty": "(q.scoreboard('awp') == 0) && q.get_equipped_item_name(0) == 'awp'" }
+					]
+				},
+				"awp": {
+					"animations": [ "awp_onfire", "awp_bullet_counter" ],
+					"transitions": [
+						{
+							"default": "q.get_equipped_item_name(0) != 'awp'"
+						},
+						{
+							"awp_empty": "(q.scoreboard('awp') == 0) && q.get_equipped_item_name(0) == 'awp'"
+						}
+					]
+				},
+				"awp_empty": {
+					"on_entry": [
+						"/function ammo/awp",
+						"/replaceitem entity @s slot.weapon.mainhand 0 sniper:awp_empty 1 0"
+					],
+					"transitions": [
+						{
+							"default": "q.get_equipped_item_name(0) != 'awp'"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.awp_onfire": {
+			"initial_state": "inactive",
+			"states": {
+				"inactive": {
+					"transitions": [
+						{ "fire": "q.get_equipped_item_name(0) == 'awp' && q.is_using_item" }
+					]
+				},
+				"firing": {
+					"on_entry": [
+						"v.bullet_fire = q.life_time;"
+					],
+					"transitions": [
+						{ "inactive": "q.get_equipped_item_name(0) != 'awp' || !q.is_using_item" },
+						{ "fire": "(q.life_time - v.bullet_fire) >= 99999999" }
+					]
+				},
+				"fire": {
+					"on_entry": [
+                        "@s awp:fire",
+                        "/scoreboard players remove @s[m=!c,scores={awp=1..10}] awp 1",
+                        "/particle minecraft:eyeofender_death_explode_particle ^ ^1 ^1"
+                    ],
+					"transitions": [
+						{ "firing": "1.0" }
+					],
+					"on_exit": [
+						"v.bullet_fire = q.life_time;"
+					]
+				}
+			}
+		},
+		"controller.animation.awp_bullet_counter": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "awp_show": "q.get_equipped_item_name(0) == 'awp'" }
+					]
+				},
+				"awp_show": {
+					"transitions": [
+						{ "default": "q.get_equipped_item_name(0) == 'awp'" }
+					],
+					"on_entry": [ "/function ammo/awp" ]
+				}
+			}
+		},
+		"controller.animation.awp_onempty": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "awp_empty": "q.get_equipped_item_name(0) == 'awp_empty' && q.is_using_item && q.scoreboard('awp') == 0" }
+					]
+				},
+				"awp_empty": {
+					"on_entry": [
+						"/function ammo/awp",
+						"/playsound pixelpoly.empty_gun @a[r=10]"
+					],
+					"transitions": [
+						{ "default": "q.get_equipped_item_name(0) != 'awp_empty' || !q.is_using_item" }
+					]
+				}
+			}
+		},
+		"controller.animation.awp_reload": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "awp_mag": "q.get_equipped_item_name(0) == 'awp_mag' && q.is_using_item && q.scoreboard('awp') == 0" }
+					]
+				},
+				"awp_mag": {
+					"transitions": [
+						{ "reload_start": "q.get_equipped_item_name(0) == 'awp_mag' && q.scoreboard('awp') == 0" },
+						{ "default": "q.get_equipped_item_name(0) != 'awp_mag'" }
+					]
+				},
+				"reload_start": {
+					"on_entry": [
+						"/tag @s add reload",
+						"/replaceitem entity @s slot.weapon.mainhand 0 sniper:awp_empty 1 0",
+						"v.r = q.life_time;"
+					],
+					"transitions": [
+						{ "reloaded": "(q.life_time - v.r) >= (40.0 / 12.0) && q.get_equipped_item_name(0) == 'awp_empty' && q.scoreboard('awp') == 0" },
+						{ "reload_error": "q.get_equipped_item_name(0) != 'awp_empty'" }
+					]
+				},
+				"reloaded": {
+					"on_entry": [
+						"/tag @s remove reload",
+						"/scoreboard players set @s awp 10",
+						"/clear @s sniper:awp_empty",
+						"/replaceitem entity @s slot.weapon.mainhand 0 sniper:awp 1 0"
+					],
+					"transitions": [
+						{ "default": "1.0" }
+					]
+				},
+				"reload_error": {
+					"on_entry": [
+						"/tag @s remove reload",
+						"/clear @s sniper:awp_empty 0 1",
+						"/replaceitem entity @s slot.weapon.mainhand 0 sniper:awp_mag 1 0"
+					],
+					"transitions": [
+						{ "default": "1.0" }
+					]
+				}
+			}
+		}
+	}
+}
+
+// This code is exclusive to both Add-ons (ActualGuns 2D and 3D) and can not be used by anybody else.

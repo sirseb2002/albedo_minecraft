@@ -1,0 +1,262 @@
+{
+	"block": {
+		"BP/blocks/blockvierge.json": {
+			"identifiers": [
+				"miroar:blockvierge"
+			],
+			"events": [
+				"fairebruit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tpmissionun.json": {
+			"identifiers": [
+				"miroar:tpmissionun"
+			],
+			"events": [
+				"tpmun"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tpbackfrommission.json": {
+			"identifiers": [
+				"miroar:tpnexusblock"
+			],
+			"events": [
+				"veutretourner"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/distributorcotwo.json": {
+			"identifiers": [
+				"miroar:distributorcotwo"
+			],
+			"events": [
+				"donnercotwo"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"function": {
+		"BP/functions/fonctionvierge.mcfunction": {
+			"custom_commands": []
+		},
+		"a23cccb3_39e4_4ffb_96d2_613994c505a3": {},
+		"BP/functions/tp_mission_01.mcfunction": {
+			"custom_commands": []
+		},
+		"e316b318_bf7d_44f0_8739_974f3fc02a2b": {},
+		"BP/functions/deverouillemissionun.mcfunction": {
+			"custom_commands": [],
+			"tags": [
+				"unlock01"
+			]
+		},
+		"0a2de19e_907a_4ccb_8cca_080bbd42c4a7": {},
+		"522e6e24_2bc1_4ece_ad85_391211a5aac4": {},
+		"ed523962_0b9e_47ab_bc1c_7242e7eb58ab": {},
+		"BP/functions/munComplete.mcfunction": {
+			"custom_commands": [],
+			"tags": [
+				"rank01",
+				"juin21"
+			]
+		},
+		"4ea1dc7c_08c6_4b02_a4e6_cfc2ba739123": {},
+		"BP/functions/tpnexus.mcfunction": {
+			"custom_commands": []
+		},
+		"cccd8648_b016_46dc_b40c_0b20b18e3b40": {},
+		"BP/functions/oxygendixmin.mcfunction": {
+			"custom_commands": []
+		},
+		"38a5570f_b8e0_471c_9f23_952d4fdf940c": {},
+		"BP/functions/whendead.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/clearinventaire.mcfunction": {
+			"custom_commands": []
+		},
+		"adafb20e_bc62_4fdb_b479_b147923861b2": {},
+		"BP/functions/otwosupp.mcfunction": {
+			"custom_commands": [],
+			"tags": [
+				"juin21"
+			]
+		},
+		"a6894774_6d12_4862_bb25_246b694e32a0": {}
+	},
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger",
+				"saysomething",
+				"whendead"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/villager.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_transformed",
+				"minecraft:entity_born",
+				"minecraft:spawn_armorer",
+				"minecraft:ageable_grow_up",
+				"minecraft:spawn_mun"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:villager"
+			],
+			"animation_references": [],
+			"families": [
+				"villager",
+				"mob",
+				"villager",
+				"peasant",
+				"farmer",
+				"mob",
+				"villager",
+				"peasant",
+				"fisherman",
+				"mob",
+				"villager",
+				"peasant",
+				"shepherd",
+				"mob",
+				"villager",
+				"peasant",
+				"fletcher",
+				"mob",
+				"villager",
+				"librarian",
+				"mob",
+				"villager",
+				"cartographer",
+				"mob",
+				"villager",
+				"priest",
+				"cleric",
+				"mob",
+				"villager",
+				"blacksmith",
+				"armorer",
+				"mob",
+				"villager",
+				"blacksmith",
+				"weaponsmith",
+				"mob",
+				"villager",
+				"blacksmith",
+				"toolsmith",
+				"mob",
+				"villager",
+				"artisan",
+				"butcher",
+				"mob",
+				"villager",
+				"artisan",
+				"leatherworker",
+				"mob",
+				"villager",
+				"mob",
+				"blacksmith",
+				"armorer"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"item": {
+		"BP/items/carteun.json": {
+			"identifiers": [
+				"miroar:carteun"
+			],
+			"custom_commands": []
+		},
+		"BP/items/concrete.json": {
+			"identifiers": [
+				"miroar:concrete"
+			],
+			"custom_commands": []
+		},
+		"BP/items/certificatemun.json": {
+			"identifiers": [
+				"miroar:certificatemun"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tpnexus.json": {
+			"identifiers": [
+				"miroar:tpnexus"
+			],
+			"custom_commands": []
+		},
+		"BP/items/harderconcrete.json": {
+			"identifiers": [
+				"miroar:harderconcrete"
+			],
+			"custom_commands": []
+		},
+		"BP/items/liquidecotwo.json": {
+			"identifiers": [
+				"miroar:liquidcotwo"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bonbonneOxygen.json": {
+			"identifiers": [
+				"miroar:oxygenbonbonne"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ticketjuinvingtvingtetun.json": {
+			"identifiers": [
+				"miroar:ticketjuinvingtvingtetun"
+			],
+			"custom_commands": []
+		}
+	},
+	"recipe": {
+		"BP/recipes/recipecarteun.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/concrete.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/harderconcrete.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/liquidcotwo.json": {
+			"tags": [
+				"blast_furnace"
+			]
+		}
+	}
+}

@@ -1,0 +1,159 @@
+// Coded by @JustAsh0005 for ActualGuns (for both 2D and 3D version), you aren't allowed to Edit, alter, modify, adapt, translate or otherwise change the whole code. 
+
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.barrett_setup": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{  "barrett": "q.get_equipped_item_name(0) == 'barrett' && (q.scoreboard('barrett') >= 1 && q.scoreboard('barrett') <= 10)" },
+						{
+							"barrett_empty": "(q.scoreboard('barrett') == 0) && q.get_equipped_item_name(0) == 'barrett'"
+						}
+					]
+				},
+				"barrett": {
+					"animations": [ "barrett_onfire", "barrett_bullet_counter" ],
+					"transitions": [
+						{
+							"default": "q.get_equipped_item_name(0) != 'barrett'"
+						},
+						{
+							"barrett_empty": "(q.scoreboard('barrett') == 0) && q.get_equipped_item_name(0) == 'barrett'"
+						}
+					]
+				},
+				"barrett_empty": {
+					"on_entry": [
+						"/function ammo/barrett",
+						"/replaceitem entity @s slot.weapon.mainhand 0 sniper:barrett_empty 1 0"
+					],
+					"transitions": [
+						{
+							"default": "q.get_equipped_item_name(0) != 'barrett'"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.barrett_onfire": {
+			"initial_state": "inactive",
+			"states": {
+				"inactive": {
+					"transitions": [
+						{ "fire": "q.get_equipped_item_name(0) == 'barrett' && q.is_using_item" }
+					]
+				},
+				"firing": {
+					"on_entry": [
+						"v.bullet_fire = q.life_time;"
+					],
+					"transitions": [
+						{ "inactive": "q.get_equipped_item_name(0) != 'barrett' || !q.is_using_item" },
+						{ "fire": "(q.life_time - v.bullet_fire) >= 99999999" }
+					]
+				},
+				"fire": {
+					"on_entry": [
+                        "@s barrett:fire",
+                        "/scoreboard players remove @s[m=!c,scores={barrett=1..10}] barrett 1",
+                        "/particle minecraft:eyeofender_death_explode_particle ^ ^1 ^1"
+                    ],
+					"transitions": [
+						{ "firing": "1.0" }
+					],
+					"on_exit": [
+						"v.bullet_fire = q.life_time;"
+					]
+				}
+			}
+		},
+		"controller.animation.barrett_bullet_counter": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "barrett_show": "q.get_equipped_item_name(0) == 'barrett'" }
+					]
+				},
+				"barrett_show": {
+					"transitions": [
+						{ "default": "q.get_equipped_item_name(0) == 'barrett'" }
+					],
+					"on_entry": [ "/function ammo/barrett" ]
+				}
+			}
+		},
+		"controller.animation.barrett_onempty": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "barrett_empty": "q.get_equipped_item_name(0) == 'barrett_empty' && q.is_using_item && q.scoreboard('barrett') == 0" }
+					]
+				},
+				"barrett_empty": {
+					"on_entry": [
+						"/function ammo/barrett",
+						"/playsound pixelpoly.empty_gun @a[r=10]"
+					],
+					"transitions": [
+						{ "default": "q.get_equipped_item_name(0) != 'barrett_empty' || !q.is_using_item" }
+					]
+				}
+			}
+		},
+		"controller.animation.barrett_reload": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "barrett_mag": "q.get_equipped_item_name(0) == 'barrett_mag' && q.is_using_item && q.scoreboard('barrett') == 0" }
+					]
+				},
+				"barrett_mag": {
+					"transitions": [
+						{ "reload_start": "q.get_equipped_item_name(0) == 'barrett_mag' && q.scoreboard('barrett') == 0" },
+						{ "default": "q.get_equipped_item_name(0) != 'barrett_mag'" }
+					]
+				},
+				"reload_start": {
+					"on_entry": [
+						"/tag @s add reload",
+						"/replaceitem entity @s slot.weapon.mainhand 0 sniper:barrett_empty 1 0",
+						"v.r = q.life_time;"
+					],
+					"transitions": [
+						{ "reloaded": "(q.life_time - v.r) >= (40.0 / 12.0) && q.get_equipped_item_name(0) == 'barrett_empty' && q.scoreboard('barrett') == 0" },
+						{ "reload_error": "q.get_equipped_item_name(0) != 'barrett_empty'" }
+					]
+				},
+				"reloaded": {
+					"on_entry": [
+						"/tag @s remove reload",
+						"/scoreboard players set @s barrett 10",
+						"/clear @s sniper:barrett_empty",
+						"/replaceitem entity @s slot.weapon.mainhand 0 sniper:barrett 1 0"
+					],
+					"transitions": [
+						{ "default": "1.0" }
+					]
+				},
+				"reload_error": {
+					"on_entry": [
+						"/tag @s remove reload",
+						"/clear @s sniper:barrett_empty 0 1",
+						"/replaceitem entity @s slot.weapon.mainhand 0 sniper:barrett_mag 1 0"
+					],
+					"transitions": [
+						{ "default": "1.0" }
+					]
+				}
+			}
+		}
+	}
+}
+
+// This code is exclusive to both Add-ons (ActualGuns 2D and 3D) and can not be used by anybody else.

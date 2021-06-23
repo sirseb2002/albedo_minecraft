@@ -1,0 +1,47 @@
+//bridge-file-version: #14
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"carteun": {
+			"textures": [
+				"textures/items/carteun"
+			]
+		},
+		"concrete": {
+			"textures": [
+				"textures/items/ciment"
+			]
+		},
+		"certificatmun": {
+			"textures": [
+				"textures/items/certificatmun"
+			]
+		},
+		"tpback": {
+			"textures": [
+				"textures/items/tpnexus"
+			]
+		},
+		"harderconcrete": {
+			"textures": [
+				"textures/items/hardconcrete"
+			]
+		},
+		"liquidcotwo": {
+			"textures": [
+				"textures/items/liquidc02"
+			]
+		},
+		"oxygenbonbonne": {
+			"textures": [
+				"textures/items/bonbonneOxygen"
+			]
+		},
+		"ticketjuinvingtvingtetun": {
+			"textures": [
+				"textures/items/ticketjuinvingtvingtetun"
+			]
+		}
+	}
+}

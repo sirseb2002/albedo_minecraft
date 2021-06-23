@@ -1,0 +1,189 @@
+// Coded by @JustAsh0005 for ActualGuns (for both 2D and 3D version), you aren't allowed to Edit, alter, modify, adapt, translate or otherwise change the whole code. 
+
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.m249_mag.counter": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "reset": "(q.get_equipped_item_name(0) == 'm249_empty') && q.is_ignited" }
+					]
+				},
+				"reset": {
+					"on_entry": [
+						"@s remove:m249",
+						"/tag @s remove bullet_10",
+						"/tag @s remove bullet_9",
+						"/tag @s remove bullet_8",
+						"/tag @s remove bullet_7",
+						"/tag @s remove bullet_6",
+						"/tag @s remove bullet_5",
+						"/tag @s remove bullet_4",
+						"/tag @s remove bullet_3",
+						"/tag @s remove bullet_2",
+						"/tag @s remove bullet_1",
+						"/tag @s remove m249reloaded"
+					],
+					"transitions": [
+						{ "default": "1.0" }
+					]	
+				}
+			}
+		},
+		"controller.animation.m249_setup": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{  "m249": "q.get_equipped_item_name(0) == 'm249' && (q.scoreboard('m249') >= 1 && q.scoreboard('m249') <= 100)" },
+						{
+							"m249_empty": "(q.scoreboard('m249') == 0) && q.get_equipped_item_name(0) == 'm249'"
+						}
+					]
+				},
+				"m249": {
+					"animations": [ "m249_onfire", "m249_bullet_counter" ],
+					"transitions": [
+						{
+							"default": "q.get_equipped_item_name(0) != 'm249'"
+						},
+						{
+							"m249_empty": "(q.scoreboard('m249') == 0) && q.get_equipped_item_name(0) == 'm249'"
+						}
+					]
+				},
+				"m249_empty": {
+					"on_entry": [
+						"/function ammo/m249",
+						"/replaceitem entity @s slot.weapon.mainhand 0 lmg:m249_empty 1 0"
+					],
+					"transitions": [
+						{
+							"default": "q.get_equipped_item_name(0) != 'm249'"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.m249_onfire": {
+			"initial_state": "inactive",
+			"states": {
+				"inactive": {
+					"transitions": [
+						{ "fire": "q.get_equipped_item_name(0) == 'm249' && q.is_using_item" }
+					]
+				},
+				"firing": {
+					"on_entry": [
+						"v.bullet_fire = q.life_time;"
+					],
+					"transitions": [
+						{ "inactive": "q.get_equipped_item_name(0) != 'm249' || !q.is_using_item" },
+						{ "fire": "(q.life_time - v.bullet_fire) >= (4.0 / 70.0)" }
+					]
+				},
+				"fire": {
+					"on_entry": [
+                        "@s m249:fire",
+                        "/scoreboard players remove @s[m=!c,scores={m249=1..100}] m249 1",
+                        "/particle minecraft:eyeofender_death_explode_particle ^ ^1 ^1"
+                    ],
+					"transitions": [
+						{ "firing": "1.0" }
+					],
+					"on_exit": [
+						"v.bullet_fire = q.life_time;"
+					]
+				}
+			}
+		},
+		"controller.animation.m249_bullet_counter": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "m249_show": "q.get_equipped_item_name(0) == 'm249'" }
+					]
+				},
+				"m249_show": {
+					"transitions": [
+						{ "default": "q.get_equipped_item_name(0) == 'm249'" }
+					],
+					"on_entry": [ "/function ammo/m249" ]
+				}
+			}
+		},
+		"controller.animation.m249_onempty": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "m249_empty": "q.get_equipped_item_name(0) == 'm249_empty' && q.is_using_item && q.scoreboard('m249') == 0" }
+					]
+				},
+				"m249_empty": {
+					"on_entry": [
+						"/function ammo/m249",
+						"/playsound pixelpoly.empty_gun @a[r=10]"
+					],
+					"transitions": [
+						{ "default": "q.get_equipped_item_name(0) != 'm249_empty' || !q.is_using_item" }
+					]
+				}
+			}
+		},
+		"controller.animation.m249_reload": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "m249_mag": "q.get_equipped_item_name(0) == 'm249_mag' && q.is_using_item && q.scoreboard('m249') == 0" }
+					]
+				},
+				"m249_mag": {
+					"transitions": [
+						{ "reload_start": "q.get_equipped_item_name(0) == 'm249_mag' && q.scoreboard('m249') == 0" },
+						{ "default": "q.get_equipped_item_name(0) != 'm249_mag'" }
+					]
+				},
+				"reload_start": {
+					"on_entry": [
+						"/tag @s add reload",
+						"/tag @s add m249reloaded",
+						"/replaceitem entity @s slot.weapon.mainhand 0 lmg:m249_empty 1 0",
+						"v.r = q.life_time;"
+					],
+					"transitions": [
+						{ "reloaded": "(q.life_time - v.r) >= (60.0 / 10.0) && q.get_equipped_item_name(0) == 'm249_empty' && q.scoreboard('m249') == 0" },
+						{ "reload_error": "q.get_equipped_item_name(0) != 'm249_empty'" }
+					]
+				},
+				"reloaded": {
+					"on_entry": [
+						"/tag @s remove reload",
+						"/scoreboard players set @s m249 100",
+						"/clear @s lmg:m249_empty",
+						"/replaceitem entity @s slot.weapon.mainhand 0 lmg:m249 1 0"
+					],
+					"transitions": [
+						{ "default": "1.0" }
+					]
+				},
+				"reload_error": {
+					"on_entry": [
+						"/tag @s remove reload",
+						"/clear @s lmg:m249_empty 0 1",
+						"/replaceitem entity @s slot.weapon.mainhand 0 lmg:m249_mag 1 0"
+					],
+					"transitions": [
+						{ "default": "1.0" }
+					]
+				}
+			}
+		}
+	}
+}
+
+// This code is exclusive to both Add-ons (ActualGuns 2D and 3D) and can not be used by anybody else.

@@ -1,0 +1,55 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.item.root": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            { "execute": "q.is_powered > 0.0" }
+          ]
+        },
+        "execute": {
+          "on_entry": [
+            "/execute @s[type=item,name=\"Taurus PT92\",tag=!item.taurus] ~ ~ ~ tag @s add item.taurus",
+            "/execute @s[type=item,name=\"Taurus PT92 Empty\",tag=!item.taurus] ~ ~ ~ tag @s add item.taurus",
+            "/execute @s[type=item,name=\"Taurus PT92 Mag\",tag=!item.taurus.mag] ~ ~ ~ tag @s add item.taurus.mag",
+
+            "/execute @s[type=item,name=\"FN P90\",tag=!item.p90] ~ ~ ~ tag @s add item.p90",
+            "/execute @s[type=item,name=\"FN P90 Empty\",tag=!item.p90] ~ ~ ~ tag @s add item.p90",
+            "/execute @s[type=item,name=\"FN P90 Mag\",tag=!item.p90.mag] ~ ~ ~ tag @s add item.p90.mag",
+
+            "/execute @s[type=item,name=\"AWP\",tag=!item.awp] ~ ~ ~ tag @s add item.awp",
+            "/execute @s[type=item,name=\"AWP Empty\",tag=!item.awp] ~ ~ ~ tag @s add item.awp",
+            "/execute @s[type=item,name=\"AWP Mag\",tag=!item.awp.mag] ~ ~ ~ tag @s add item.awp.mag",
+
+            "/execute @s[type=item,name=\"Barrett M82A1\",tag=!item.barrett] ~ ~ ~ tag @s add item.barrett",
+            "/execute @s[type=item,name=\"Barrett M82A1 Empty\",tag=!item.barrett] ~ ~ ~ tag @s add item.barrett",
+            "/execute @s[type=item,name=\"Barrett M82A1 Mag\",tag=!item.barrett.mag] ~ ~ ~ tag @s add item.barrett.mag",
+
+            "/execute @s[type=item,name=\"Benelli M3\",tag=!item.m3] ~ ~ ~ tag @s add item.m3",
+            "/execute @s[type=item,name=\"Benelli M3 Empty\",tag=!item.m3] ~ ~ ~ tag @s add item.m3",
+            "/execute @s[type=item,name=\"Benelli M3 Ammo\",tag=!item.m3.ammo] ~ ~ ~ tag @s add item.m3.ammo",    
+            
+            "/execute @s[type=item,name=\"Chain Grenade\",tag=!item.chaingrenade] ~ ~ ~ tag @s add item.chaingrenade",
+
+            "/execute @s[type=item,name=\"AKM\",tag=!item.akm] ~ ~ ~ tag @s add item.akm",
+            "/execute @s[type=item,name=\"AKM Empty\",tag=!item.akm] ~ ~ ~ tag @s add item.akm",
+            "/execute @s[type=item,name=\"AKM Mag\",tag=!item.akm.mag] ~ ~ ~ tag @s add item.akm.mag",
+
+            "/execute @s[type=item,name=\"M249\",tag=!item.m249] ~ ~ ~ tag @s add item.m249",
+            "/execute @s[type=item,name=\"M249 Empty\",tag=!item.m249] ~ ~ ~ tag @s add item.m249",
+            "/execute @s[type=item,name=\"M249 Mag\",tag=!item.m249.mag] ~ ~ ~ tag @s add item.m249.mag",
+
+            "/execute @s[type=item,name=\"MK18\",tag=!item.mk18] ~ ~ ~ tag @s add item.mk18",
+            "/execute @s[type=item,name=\"MK18 Empty\",tag=!item.mk18] ~ ~ ~ tag @s add item.mk18",
+            "/execute @s[type=item,name=\"MK18 Mag\",tag=!item.mk18.mag] ~ ~ ~ tag @s add item.mk18.mag"
+          ],
+          "transitions": [
+            { "default": "q.is_powered <= 0.0" }
+          ]
+        }
+      }
+    }
+  }
+}

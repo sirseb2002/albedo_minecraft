@@ -1,0 +1,424 @@
+{
+	"file_path": "C:\\Users\\antho\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Anthony_BP\\manifest.json",
+	"file_type": "manifest_bp",
+	"format_version": 1,
+	"file_uuid": "798c1172_ed89_420b_9527_7a4bc143e006",
+	"file_version": 14,
+	"cache_content": {
+		"children": [
+			{
+				"data": "2",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "Behavior pack d'Anthony",
+						"description": "Tous le travail d'Anthony est concentré dans ce pack",
+						"uuid": "62f79e90-be4d-11eb-8529-0242ac130003",
+						"version": [
+							1,
+							5,
+							0
+						],
+						"min_engine_version": [
+							1,
+							16,
+							200
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "d7392aa1-574d-49d3-abd1-7e9aca74e49d",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								5,
+								0
+							],
+							"uuid": "76f359ca-be4d-11eb-8529-0242ac130003"
+						}
+					],
+					"metadata": {
+						"license": "MiRoar Inc.",
+						"url": "miroar.ca",
+						"authors": [
+							"Anthony Lopez-Gagnon"
+						]
+					}
+				},
+				"key": "header",
+				"children": [
+					{
+						"open": {
+							"name": "Behavior pack d'Anthony",
+							"description": "Tous le travail d'Anthony est concentré dans ce pack",
+							"uuid": "62f79e90-be4d-11eb-8529-0242ac130003",
+							"version": [
+								1,
+								5,
+								0
+							],
+							"min_engine_version": [
+								1,
+								16,
+								200
+							]
+						},
+						"comment": "Le nom du pack qui sera affiché dans minecraft",
+						"data": "Behavior pack d'Anthony",
+						"key": "name"
+					},
+					{
+						"open": {
+							"name": "Behavior pack d'Anthony",
+							"description": "Tous le travail d'Anthony est concentré dans ce pack",
+							"uuid": "62f79e90-be4d-11eb-8529-0242ac130003",
+							"version": [
+								1,
+								5,
+								0
+							],
+							"min_engine_version": [
+								1,
+								16,
+								200
+							]
+						},
+						"comment": "La description du pack qui sera affiché dans minecraft",
+						"data": "Tous le travail d'Anthony est concentré dans ce pack",
+						"key": "description"
+					},
+					{
+						"open": {
+							"name": "Behavior pack d'Anthony",
+							"description": "Tous le travail d'Anthony est concentré dans ce pack",
+							"uuid": "62f79e90-be4d-11eb-8529-0242ac130003",
+							"version": [
+								1,
+								5,
+								0
+							],
+							"min_engine_version": [
+								1,
+								16,
+								200
+							]
+						},
+						"data": "62f79e90-be4d-11eb-8529-0242ac130003",
+						"key": "uuid"
+					},
+					{
+						"open": {
+							"name": "Behavior pack d'Anthony",
+							"description": "Tous le travail d'Anthony est concentré dans ce pack",
+							"uuid": "62f79e90-be4d-11eb-8529-0242ac130003",
+							"version": [
+								1,
+								5,
+								0
+							],
+							"min_engine_version": [
+								1,
+								16,
+								200
+							]
+						},
+						"key": "version",
+						"is_minified": true,
+						"children": [
+							1,
+							5,
+							0
+						]
+					},
+					{
+						"open": {
+							"name": "Behavior pack d'Anthony",
+							"description": "Tous le travail d'Anthony est concentré dans ce pack",
+							"uuid": "62f79e90-be4d-11eb-8529-0242ac130003",
+							"version": [
+								1,
+								5,
+								0
+							],
+							"min_engine_version": [
+								1,
+								16,
+								200
+							]
+						},
+						"key": "min_engine_version",
+						"is_minified": true,
+						"children": [
+							1,
+							16,
+							200
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "Behavior pack d'Anthony",
+						"description": "Tous le travail d'Anthony est concentré dans ce pack",
+						"uuid": "62f79e90-be4d-11eb-8529-0242ac130003",
+						"version": [
+							1,
+							5,
+							0
+						],
+						"min_engine_version": [
+							1,
+							16,
+							200
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "d7392aa1-574d-49d3-abd1-7e9aca74e49d",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								5,
+								0
+							],
+							"uuid": "76f359ca-be4d-11eb-8529-0242ac130003"
+						}
+					],
+					"metadata": {
+						"license": "MiRoar Inc.",
+						"url": "miroar.ca",
+						"authors": [
+							"Anthony Lopez-Gagnon"
+						]
+					}
+				},
+				"key": "modules",
+				"children": [
+					{
+						"open": [
+							{
+								"type": "data",
+								"uuid": "d7392aa1-574d-49d3-abd1-7e9aca74e49d",
+								"version": [
+									1,
+									0,
+									0
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "data",
+								"key": "type"
+							},
+							{
+								"data": "d7392aa1-574d-49d3-abd1-7e9aca74e49d",
+								"key": "uuid"
+							},
+							{
+								"open": {
+									"type": "data",
+									"uuid": "d7392aa1-574d-49d3-abd1-7e9aca74e49d",
+									"version": [
+										1,
+										0,
+										0
+									]
+								},
+								"key": "version",
+								"is_minified": true,
+								"children": [
+									1,
+									0,
+									0
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "Behavior pack d'Anthony",
+						"description": "Tous le travail d'Anthony est concentré dans ce pack",
+						"uuid": "62f79e90-be4d-11eb-8529-0242ac130003",
+						"version": [
+							1,
+							5,
+							0
+						],
+						"min_engine_version": [
+							1,
+							16,
+							200
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "d7392aa1-574d-49d3-abd1-7e9aca74e49d",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								5,
+								0
+							],
+							"uuid": "76f359ca-be4d-11eb-8529-0242ac130003"
+						}
+					],
+					"metadata": {
+						"license": "MiRoar Inc.",
+						"url": "miroar.ca",
+						"authors": [
+							"Anthony Lopez-Gagnon"
+						]
+					}
+				},
+				"key": "dependencies",
+				"children": [
+					{
+						"open": [
+							{
+								"version": [
+									1,
+									5,
+									0
+								],
+								"uuid": "76f359ca-be4d-11eb-8529-0242ac130003"
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"version": [
+										1,
+										5,
+										0
+									],
+									"uuid": "76f359ca-be4d-11eb-8529-0242ac130003"
+								},
+								"key": "version",
+								"is_minified": true,
+								"children": [
+									1,
+									5,
+									0
+								]
+							},
+							{
+								"data": "76f359ca-be4d-11eb-8529-0242ac130003",
+								"key": "uuid"
+							}
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "Behavior pack d'Anthony",
+						"description": "Tous le travail d'Anthony est concentré dans ce pack",
+						"uuid": "62f79e90-be4d-11eb-8529-0242ac130003",
+						"version": [
+							1,
+							5,
+							0
+						],
+						"min_engine_version": [
+							1,
+							16,
+							200
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "d7392aa1-574d-49d3-abd1-7e9aca74e49d",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								5,
+								0
+							],
+							"uuid": "76f359ca-be4d-11eb-8529-0242ac130003"
+						}
+					],
+					"metadata": {
+						"license": "MiRoar Inc.",
+						"url": "miroar.ca",
+						"authors": [
+							"Anthony Lopez-Gagnon"
+						]
+					}
+				},
+				"key": "metadata",
+				"children": [
+					{
+						"data": "MiRoar Inc.",
+						"key": "license"
+					},
+					{
+						"data": "miroar.ca",
+						"key": "url"
+					},
+					{
+						"open": {
+							"license": "MiRoar Inc.",
+							"url": "miroar.ca",
+							"authors": [
+								"Anthony Lopez-Gagnon"
+							]
+						},
+						"key": "authors",
+						"is_minified": true,
+						"children": [
+							"Anthony Lopez-Gagnon"
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Behavior pack de Georgie",
+		"description": "Tous le travail de Georgie est concentré dans ce pack",
+		"uuid": "8af7e0ac-be4e-11eb-8529-0242ac130003",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "d7392aa1-574d-49d3-abd1-7e9aca74e49d",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "d14b41e4-c2f3-11eb-8529-0242ac130003"
+		}
+	],
+	"metadata": {
+		"license": "MiRoar Inc.",
+		"url": "miroar.ca",
+		"authors": [
+			"Georgi Gergov"
+		]
+	}
+}

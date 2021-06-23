@@ -1,0 +1,21 @@
+{
+	"block": {
+		"BP/blocks/blockvierge.json": {
+			"identifiers": [
+				"miroar:blockvierge"
+			],
+			"events": [
+				"fairebruit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"function": {
+		"BP/functions/fonctionvierge.mcfunction": {
+			"custom_commands": []
+		},
+		"a23cccb3_39e4_4ffb_96d2_613994c505a3": {}
+	}
+}

@@ -1,0 +1,13 @@
+pack.name=ActualGuns 3D! [1.2.6]
+pack.description=Required behavior pack for ActualGuns Add-on made by §b@PixelPolyMC§r, Make sure to turn on "Additional Modding" and "Holiday Creator features" in your world settings before playing the Add-on 
+
+# Entity names
+entity.awp:bullet.name=AWP Bullet
+entity.p90:bullet.name=P90 Bullet
+entity.barrett:bullet.name=Barrett M82A1 Bullet
+entity.m3:bullet.name=Benelli M3 Bullet
+entity.akm:bullet.name=AKM Bullet
+entity.mk18:bullet.name=Mk18 Bullet
+entity.m249:bullet.name=M249 Bullet
+entity.entity:chain_grenade.name=Chain Grenade
+entity.grenade:chain.name=Chain Grenade

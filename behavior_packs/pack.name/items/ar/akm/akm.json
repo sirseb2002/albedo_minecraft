@@ -1,0 +1,35 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ar:akm",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.tools"
+      },
+      "minecraft:display_name": {
+        "value": "AKM"
+      },
+      "minecraft:stacked_by_data": true,
+      "minecraft:liquid_clipped": false,
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": "low",
+        "cooldown_type": "chorusfruit",
+        "cooldown_time": 6,
+        "can_always_eat": true
+      },
+      "minecraft:allow_off_hand": false,
+      "minecraft:hand_equipped": true,
+      "minecraft:should_despawn": false,
+      "minecraft:explodable": false,
+      "minecraft:use_duration": 3200.0,
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": {
+        "texture": "ar:akm.texture"
+      }
+    }
+  }
+}

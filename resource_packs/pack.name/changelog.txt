@@ -1,0 +1,55 @@
+1.0
+- Release
+
+1.1 
+- Fixed shotgun and Taurus bullet fire issue from server (behavior) side, it should sync with the client (resource) now
+- Fixed M3 Shotgun bullet, now they spread and deals equal damage
+- Reduced the lag by recreating the item textures, now they are 32x32 instead of 256x
+- Fixed taurus random animation bug that would cause the gun to resize in the same size as the player
+- Added new function commands to get guns and mag/ammo
+
+1.2
+- Reduced the lag by recreating the mag/ammo item textures, now they are 32x32 instead of 256x
+- Modified the render controllers, now it won't show the damage overlay on guns but only the player
+- Added draw animations for Taurus (pistol)
+- Redid the mag animations for both first and third person
+- Redid the bullet models and textures, now all guns share same model for the bullet
+- Fixed P90 and Taurus bullet fire rate
+- Taurus mag model was recreated
+- Added walking/sprinting animations for all guns
+- Added a way to enable/disable the recoil, you can enable it by using "/function recoil/enable" and disable by "/function recoil/disable" command in-game
+- Added new AR gun, AKM with all animations and sounds
+- Added new LMG (Light Machine Gun), M249 with all animations and sounds
+- Added new AR gun, mk18 with all animations and sounds
+- Fixed bullet power/range for all guns
+
+1.2.2
+- Modified the bullet projectile behavior, now you get better accuracy when aiming with any gun
+- Fixed watermark version error
+- Fixed M3 Shotgun bullet not spreading bug
+
+1.2.5
+- Modified mk18 Damage, now AKM have higher damage than mk18
+- Updated item format to work with Minecraft Bedrock v1.16.100
+- Fixed render controllers and shortnames errors that was introduced in 1.16.100
+- The red cursor while playing addon was removed, bug caused because of 1.16.100
+- Synced item cooldown with the client animations
+- Fixed invisible magazine bug
+- Now you can get guns or magazines from your creative inventory
+
+1.2.6
+- Added support for multiplayer mode, now you can play with full auto guns even in multiplayer mode!
+- Empty items were removed from creative inventory, however, you can still get them using commands
+- Recreated the reload/ammo system, now it's even more accurate and lag free than before!
+- You can now stop the reloading if you quickly change the slot before reloading ends
+- Removed gun recoil
+- Reformatted addon to work better with 1.16.100 (such as some client files)
+- Recreated client animation controllers, added blend transition for aiming, reloading, and sprinting states
+- M4A1 was renamed MK18, including the bullet damage
+- Added night vision goggles
+- Updated credits.txt file with correct information
+- Compressed sound files
+- Improved textures for 2D items
+- Fixed chaingrenade not exploding bug
+
+

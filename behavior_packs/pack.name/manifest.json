@@ -1,0 +1,32 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"uuid": "0d9308de-2311-4fd0-97f7-332f959b277b",
+		"version": [ 1, 2, 6 ],
+		"min_engine_version": [ 1, 14, 0 ],
+		"pack_scope": "world",
+		"platform_locked": false
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "6e24e865-9e80-4497-9bf5-afc5e9ce7a3b",
+			"version": [ 0, 0, 1 ]
+		}
+	],
+	"dependencies": [
+		{
+            "uuid": "cd71bc96-f8f0-459b-8cb8-aa455e748deb",
+            "version": [ 1, 2, 6 ]
+        }
+	],
+	"metadata": {
+		"authors": [
+			"PixelPoly Digital"
+		],
+		"license": "eula.pdf",
+		"url": "https://pixelpoly.co/"
+	}
+}

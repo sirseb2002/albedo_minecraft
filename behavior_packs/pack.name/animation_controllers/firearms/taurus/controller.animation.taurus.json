@@ -1,0 +1,159 @@
+// Coded by @JustAsh0005 for ActualGuns (for both 2D and 3D version), you aren't allowed to Edit, alter, modify, adapt, translate or otherwise change the whole code. 
+
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.taurus_setup": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{  "taurus": "q.get_equipped_item_name(0) == 'taurus' && (q.scoreboard('taurus') >= 1 && q.scoreboard('taurus') <= 18)" },
+						{
+							"taurus_empty": "(q.scoreboard('taurus') == 0) && q.get_equipped_item_name(0) == 'taurus'"
+						}
+					]
+				},
+				"taurus": {
+					"animations": [ "taurus_onfire", "taurus_bullet_counter" ],
+					"transitions": [
+						{
+							"default": "q.get_equipped_item_name(0) != 'taurus'"
+						},
+						{
+							"taurus_empty": "(q.scoreboard('taurus') == 0) && q.get_equipped_item_name(0) == 'taurus'"
+						}
+					]
+				},
+				"taurus_empty": {
+					"on_entry": [
+						"/function ammo/taurus",
+						"/replaceitem entity @s slot.weapon.mainhand 0 pistol:taurus_empty 1 0"
+					],
+					"transitions": [
+						{
+							"default": "q.get_equipped_item_name(0) != 'taurus'"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.taurus_onfire": {
+			"initial_state": "inactive",
+			"states": {
+				"inactive": {
+					"transitions": [
+						{ "fire": "q.get_equipped_item_name(0) == 'taurus' && q.is_using_item" }
+					]
+				},
+				"firing": {
+					"on_entry": [
+						"v.bullet_fire = q.life_time;"
+					],
+					"transitions": [
+						{ "inactive": "q.get_equipped_item_name(0) != 'taurus' || !q.is_using_item" },
+						{ "fire": "(q.life_time - v.bullet_fire) >= 99999999" }
+					]
+				},
+				"fire": {
+					"on_entry": [
+                        "@s taurus:fire",
+                        "/scoreboard players remove @s[m=!c,scores={taurus=1..18}] taurus 1",
+                        "/particle minecraft:eyeofender_death_explode_particle ^ ^1 ^1"
+                    ],
+					"transitions": [
+						{ "firing": "1.0" }
+					],
+					"on_exit": [
+						"v.bullet_fire = q.life_time;"
+					]
+				}
+			}
+		},
+		"controller.animation.taurus_bullet_counter": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "taurus_show": "q.get_equipped_item_name(0) == 'taurus'" }
+					]
+				},
+				"taurus_show": {
+					"transitions": [
+						{ "default": "q.get_equipped_item_name(0) == 'taurus'" }
+					],
+					"on_entry": [ "/function ammo/taurus" ]
+				}
+			}
+		},
+		"controller.animation.taurus_onempty": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "taurus_empty": "q.get_equipped_item_name(0) == 'taurus_empty' && q.is_using_item && q.scoreboard('taurus') == 0" }
+					]
+				},
+				"taurus_empty": {
+					"on_entry": [
+						"/function ammo/taurus",
+						"/playsound pixelpoly.empty_gun @a[r=10]"
+					],
+					"transitions": [
+						{ "default": "q.get_equipped_item_name(0) != 'taurus_empty' || !q.is_using_item" }
+					]
+				}
+			}
+		},
+		"controller.animation.taurus_reload": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "taurus_mag": "q.get_equipped_item_name(0) == 'taurus_mag' && q.is_using_item && q.scoreboard('taurus') == 0" }
+					]
+				},
+				"taurus_mag": {
+					"transitions": [
+						{ "reload_start": "q.get_equipped_item_name(0) == 'taurus_mag' && q.scoreboard('taurus') == 0" },
+						{ "default": "q.get_equipped_item_name(0) != 'taurus_mag'" }
+					]
+				},
+				"reload_start": {
+					"on_entry": [
+						"/tag @s add reload",
+						"/replaceitem entity @s slot.weapon.mainhand 0 pistol:taurus_empty 1 0",
+						"v.r = q.life_time;"
+					],
+					"transitions": [
+						{ "reloaded": "(q.life_time - v.r) >= (28.0 / 12.0) && q.get_equipped_item_name(0) == 'taurus_empty' && q.scoreboard('taurus') == 0" },
+						{ "reload_error": "q.get_equipped_item_name(0) != 'taurus_empty'" }
+					]
+				},
+				"reloaded": {
+					"on_entry": [
+						"/tag @s remove reload",
+						"/scoreboard players set @s taurus 18",
+						"/clear @s pistol:taurus_empty",
+						"/replaceitem entity @s slot.weapon.mainhand 0 pistol:taurus 1 0"
+					],
+					"transitions": [
+						{ "default": "1.0" }
+					]
+				},
+				"reload_error": {
+					"on_entry": [
+						"/tag @s remove reload",
+						"/clear @s pistol:taurus_empty 0 1",
+						"/replaceitem entity @s slot.weapon.mainhand 0 pistol:taurus_mag 1 0"
+					],
+					"transitions": [
+						{ "default": "1.0" }
+					]
+				}
+			}
+		}
+	}
+}
+
+// This code is exclusive to both Add-ons (ActualGuns 2D and 3D) and can not be used by anybody else.

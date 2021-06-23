@@ -1,0 +1,433 @@
+{
+	"file_path": "C:\\Users\\antho\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Anthony_BP\\blocks\\tpbackfrommission.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "adafb20e_bc62_4fdb_b479_b147923861b2",
+	"file_version": 15,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "miroar:tpnexusblock",
+							"is_experimental": true
+						},
+						"components": {
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:on_interact": {
+								"event": "veutretourner"
+							},
+							"minecraft:display_name": "Retour au nexus"
+						},
+						"events": {
+							"veutretourner": {
+								"run_command": {
+									"command": [
+										"function tpnexus",
+										"function clearinventaire"
+									],
+									"target": "other"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "miroar:tpnexusblock",
+								"is_experimental": true
+							},
+							"components": {
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:on_interact": {
+									"event": "veutretourner"
+								},
+								"minecraft:display_name": "Retour au nexus"
+							},
+							"events": {
+								"veutretourner": {
+									"run_command": {
+										"command": [
+											"function tpnexus",
+											"function clearinventaire"
+										],
+										"target": "other"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "miroar:tpnexusblock",
+							"is_experimental": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "miroar:tpnexusblock",
+								"is_experimental": true
+							},
+							"components": {
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:on_interact": {
+									"event": "veutretourner"
+								},
+								"minecraft:display_name": "Retour au nexus"
+							},
+							"events": {
+								"veutretourner": {
+									"run_command": {
+										"command": [
+											"function tpnexus",
+											"function clearinventaire"
+										],
+										"target": "other"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:entity_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-8,
+											0,
+											-8
+										]
+									},
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											16,
+											16,
+											16
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:pick_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-8,
+											0,
+											-8
+										]
+									},
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											16,
+											16,
+											16
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:material_instances",
+								"is_active": false,
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "textureblockvierge",
+												"render_method": "opaque"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "textureblockvierge",
+											"render_method": "opaque"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:on_interact": {
+										"event": "veutretourner"
+									},
+									"minecraft:display_name": "Retour au nexus"
+								},
+								"key": "minecraft:on_interact",
+								"is_minified": true,
+								"children": {
+									"event": "veutretourner"
+								}
+							},
+							{
+								"data": "Retour au nexus",
+								"key": "minecraft:display_name"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "miroar:tpnexusblock",
+								"is_experimental": true
+							},
+							"components": {
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:on_interact": {
+									"event": "veutretourner"
+								},
+								"minecraft:display_name": "Retour au nexus"
+							},
+							"events": {
+								"veutretourner": {
+									"run_command": {
+										"command": [
+											"function tpnexus",
+											"function clearinventaire"
+										],
+										"target": "other"
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"veutretourner": {
+										"run_command": {
+											"command": [
+												"function tpnexus",
+												"function clearinventaire"
+											],
+											"target": "other"
+										}
+									}
+								},
+								"key": "veutretourner",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"function tpnexus",
+													"function clearinventaire"
+												],
+												"target": "other"
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"function tpnexus",
+														"function clearinventaire"
+													],
+													"target": "other"
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"function tpnexus",
+													"function clearinventaire"
+												]
+											},
+											{
+												"data": "other",
+												"key": "target"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
