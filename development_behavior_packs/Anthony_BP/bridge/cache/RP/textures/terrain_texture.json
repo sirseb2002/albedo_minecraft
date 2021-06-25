@@ -3,7 +3,7 @@
 	"file_type": "terrain_texture",
 	"format_version": 1,
 	"file_uuid": "f0fbc4fa_ee9c_40ca_aedd_f1cb9695a67b",
-	"file_version": 1,
+	"file_version": 3,
 	"cache_content": {
 		"children": [
 			{
@@ -39,7 +39,14 @@
 						"tpmissionun": {
 							"textures": [
 								{
-									"path": "textures/blocks/viergeblock"
+									"path": "textures/blocks/tpmun"
+								}
+							]
+						},
+						"texturetpback": {
+							"textures": [
+								{
+									"path": "textures/blocks/tpnexus"
 								}
 							]
 						}
@@ -59,7 +66,14 @@
 							"tpmissionun": {
 								"textures": [
 									{
-										"path": "textures/blocks/viergeblock"
+										"path": "textures/blocks/tpmun"
+									}
+								]
+							},
+							"texturetpback": {
+								"textures": [
+									{
+										"path": "textures/blocks/tpnexus"
 									}
 								]
 							}
@@ -103,20 +117,95 @@
 							"tpmissionun": {
 								"textures": [
 									{
-										"path": "textures/blocks/viergeblock"
+										"path": "textures/blocks/tpmun"
+									}
+								]
+							},
+							"texturetpback": {
+								"textures": [
+									{
+										"path": "textures/blocks/tpnexus"
 									}
 								]
 							}
 						},
 						"key": "tpmissionun",
-						"is_minified": true,
-						"children": {
-							"textures": [
-								{
-									"path": "textures/blocks/viergeblock"
-								}
-							]
-						}
+						"children": [
+							{
+								"open": {
+									"textures": [
+										{
+											"path": "textures/blocks/tpmun"
+										}
+									]
+								},
+								"key": "textures",
+								"children": [
+									{
+										"open": [
+											{
+												"path": "textures/blocks/tpmun"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"path": "textures/blocks/tpmun"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"textureblockvierge": {
+								"textures": [
+									{
+										"path": "textures/blocks/viergeblock"
+									}
+								]
+							},
+							"tpmissionun": {
+								"textures": [
+									{
+										"path": "textures/blocks/tpmun"
+									}
+								]
+							},
+							"texturetpback": {
+								"textures": [
+									{
+										"path": "textures/blocks/tpnexus"
+									}
+								]
+							}
+						},
+						"key": "texturetpback",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										{
+											"path": "textures/blocks/tpnexus"
+										}
+									]
+								},
+								"key": "textures",
+								"children": [
+									{
+										"open": [
+											{
+												"path": "textures/blocks/tpnexus"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"path": "textures/blocks/tpnexus"
+										}
+									}
+								]
+							}
+						]
 					}
 				]
 			}

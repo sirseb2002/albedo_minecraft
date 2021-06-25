@@ -3,7 +3,7 @@
 	"file_type": "entity",
 	"format_version": 1,
 	"file_uuid": "522e6e24_2bc1_4ece_ad85_391211a5aac4",
-	"file_version": 18,
+	"file_version": 19,
 	"cache_content": {
 		"children": [
 			{
@@ -112,7 +112,7 @@
 								"inhale_time": 3.75,
 								"generates_bubbles": false,
 								"suffocate_time": -1,
-								"breathes_air": false,
+								"breathes_air": true,
 								"breathes_water": true
 							},
 							"minecraft:nameable": {
@@ -343,7 +343,7 @@
 								"inhale_time": 3.75,
 								"generates_bubbles": false,
 								"suffocate_time": -1,
-								"breathes_air": false,
+								"breathes_air": true,
 								"breathes_water": true
 							},
 							"minecraft:nameable": {
@@ -623,7 +623,7 @@
 									"inhale_time": 3.75,
 									"generates_bubbles": false,
 									"suffocate_time": -1,
-									"breathes_air": false,
+									"breathes_air": true,
 									"breathes_water": true
 								},
 								"minecraft:nameable": {
@@ -805,7 +805,7 @@
 										"inhale_time": 3.75,
 										"generates_bubbles": false,
 										"suffocate_time": -1,
-										"breathes_air": false,
+										"breathes_air": true,
 										"breathes_water": true
 									},
 									"minecraft:nameable": {
@@ -1036,7 +1036,7 @@
 										"inhale_time": 3.75,
 										"generates_bubbles": false,
 										"suffocate_time": -1,
-										"breathes_air": false,
+										"breathes_air": true,
 										"breathes_water": true
 									},
 									"minecraft:nameable": {
@@ -1112,7 +1112,7 @@
 									"inhale_time": 3.75,
 									"generates_bubbles": false,
 									"suffocate_time": -1,
-									"breathes_air": false,
+									"breathes_air": true,
 									"breathes_water": true
 								}
 							},
@@ -1175,7 +1175,7 @@
 										"inhale_time": 3.75,
 										"generates_bubbles": false,
 										"suffocate_time": -1,
-										"breathes_air": false,
+										"breathes_air": true,
 										"breathes_water": true
 									},
 									"minecraft:nameable": {
@@ -1310,7 +1310,7 @@
 										"inhale_time": 3.75,
 										"generates_bubbles": false,
 										"suffocate_time": -1,
-										"breathes_air": false,
+										"breathes_air": true,
 										"breathes_water": true
 									},
 									"minecraft:nameable": {
@@ -1523,7 +1523,7 @@
 										"inhale_time": 3.75,
 										"generates_bubbles": false,
 										"suffocate_time": -1,
-										"breathes_air": false,
+										"breathes_air": true,
 										"breathes_water": true
 									},
 									"minecraft:nameable": {
@@ -1659,7 +1659,7 @@
 										"inhale_time": 3.75,
 										"generates_bubbles": false,
 										"suffocate_time": -1,
-										"breathes_air": false,
+										"breathes_air": true,
 										"breathes_water": true
 									},
 									"minecraft:nameable": {
@@ -1840,7 +1840,7 @@
 									"inhale_time": 3.75,
 									"generates_bubbles": false,
 									"suffocate_time": -1,
-									"breathes_air": false,
+									"breathes_air": true,
 									"breathes_water": true
 								},
 								"minecraft:nameable": {

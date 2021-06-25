@@ -1,4 +1,4 @@
-//bridge-file-version: #1
+//bridge-file-version: #3
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.terrain",
@@ -15,7 +15,14 @@
 		"tpmissionun": {
 			"textures": [
 				{
-					"path": "textures/blocks/viergeblock"
+					"path": "textures/blocks/tpmun"
+				}
+			]
+		},
+		"texturetpback": {
+			"textures": [
+				{
+					"path": "textures/blocks/tpnexus"
 				}
 			]
 		}
