@@ -3,6 +3,6 @@
 	"file_type": "function",
 	"format_version": 0,
 	"file_uuid": "5d9adb19_78ed_4d15_8dbd_9e4a7f6edc7f",
-	"file_version": 4,
-	"cache_content": "# My Comment\neffect @s water_breathing 600"
+	"file_version": 5,
+	"cache_content": "# My Comment\neffect @s water_breathing 600 1 true"
 }

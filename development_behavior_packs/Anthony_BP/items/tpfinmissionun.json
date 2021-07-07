@@ -1,0 +1,37 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "miroar:tpfinmissionun"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "tpback"
+			},
+			"minecraft:use_duration": 5,
+			"minecraft:display_name": {
+				"value": "Fin de la mission un"
+			},
+			"minecraft:food": {
+				"nutrition": 0,
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "tpfin"
+				},
+				"saturation_modifier": "low"
+			},
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"tpfin": {
+				"run_command": {
+					"command": [
+						"function tp_fin_mission_un",
+						"function clearinventaire"
+					]
+				}
+			}
+		}
+	}
+}

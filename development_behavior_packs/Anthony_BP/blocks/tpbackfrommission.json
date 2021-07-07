@@ -1,4 +1,4 @@
-//bridge-file-version: #15
+//bridge-file-version: #16
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -30,6 +30,12 @@
 					16,
 					16
 				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "texturetpback"
+				}
 			},
 			"minecraft:on_interact": {
 				"event": "veutretourner"

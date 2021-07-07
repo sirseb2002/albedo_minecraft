@@ -1,4 +1,4 @@
-//bridge-file-version: #9
+//bridge-file-version: #10
 {
 	"format_version": 2,
 	"header": {
@@ -6,8 +6,8 @@
 		"description": "Tous le travail d'Anthony est concentré dans ce pack",
 		"uuid": "76f359ca-be4d-11eb-8529-0242ac130003",
 		"version": [
-			1,
-			5,
+			2,
+			0,
 			0
 		],
 		"min_engine_version": [

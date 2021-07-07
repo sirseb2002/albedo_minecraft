@@ -66,8 +66,7 @@
 		"BP/functions/munComplete.mcfunction": {
 			"custom_commands": [],
 			"tags": [
-				"rank01",
-				"juin21"
+				"rank01"
 			]
 		},
 		"4ea1dc7c_08c6_4b02_a4e6_cfc2ba739123": {},
@@ -92,7 +91,10 @@
 				"juin21"
 			]
 		},
-		"a6894774_6d12_4862_bb25_246b694e32a0": {}
+		"a6894774_6d12_4862_bb25_246b694e32a0": {},
+		"BP/functions/tp_fin_mission_un.mcfunction": {
+			"custom_commands": []
+		}
 	},
 	"entity": {
 		"BP/entities/player.json": {
@@ -206,12 +208,6 @@
 			],
 			"custom_commands": []
 		},
-		"BP/items/tpnexus.json": {
-			"identifiers": [
-				"miroar:tpnexus"
-			],
-			"custom_commands": []
-		},
 		"BP/items/harderconcrete.json": {
 			"identifiers": [
 				"miroar:harderconcrete"
@@ -233,6 +229,12 @@
 		"BP/items/ticketjuinvingtvingtetun.json": {
 			"identifiers": [
 				"miroar:ticketjuinvingtvingtetun"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tpfinmissionun.json": {
+			"identifiers": [
+				"miroar:tpfinmissionun"
 			],
 			"custom_commands": []
 		}

@@ -1,4 +1,4 @@
-#bridge-file-version: #5
+#bridge-file-version: #6
 # All de custom from NEXUS
 clear @s miroar:carteun
 clear @s wool
@@ -19,5 +19,6 @@ clear @s miroar:harderconcrete
 clear @s gravel
 clear @s clay_ball
 clear @s sand 1
+clear @s flint
  
 #################################################

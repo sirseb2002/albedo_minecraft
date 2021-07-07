@@ -3,7 +3,7 @@
 	"file_type": "block",
 	"format_version": 1,
 	"file_uuid": "ed523962_0b9e_47ab_bc1c_7242e7eb58ab",
-	"file_version": 40,
+	"file_version": 41,
 	"cache_content": {
 		"children": [
 			{
@@ -42,6 +42,12 @@
 									16,
 									16
 								]
+							},
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "opaque",
+									"texture": "tpmissionun"
+								}
 							},
 							"minecraft:on_interact": {
 								"event": "tpmun"
@@ -93,6 +99,12 @@
 										16,
 										16
 									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "tpmissionun"
+									}
 								},
 								"minecraft:on_interact": {
 									"event": "tpmun"
@@ -148,6 +160,12 @@
 										16,
 										16
 									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "tpmissionun"
+									}
 								},
 								"minecraft:on_interact": {
 									"event": "tpmun"
@@ -294,6 +312,12 @@
 											16
 										]
 									},
+									"minecraft:material_instances": {
+										"*": {
+											"render_method": "opaque",
+											"texture": "tpmissionun"
+										}
+									},
 									"minecraft:on_interact": {
 										"event": "tpmun"
 									},
@@ -301,7 +325,6 @@
 								},
 								"comment": "Applique la texture qui a été désigné dans le fichier terrain_texture.json",
 								"key": "minecraft:material_instances",
-								"is_active": false,
 								"children": [
 									{
 										"open": {
@@ -351,6 +374,12 @@
 											16
 										]
 									},
+									"minecraft:material_instances": {
+										"*": {
+											"render_method": "opaque",
+											"texture": "tpmissionun"
+										}
+									},
 									"minecraft:on_interact": {
 										"event": "tpmun"
 									},
@@ -398,6 +427,12 @@
 										16,
 										16
 									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "tpmissionun"
+									}
 								},
 								"minecraft:on_interact": {
 									"event": "tpmun"

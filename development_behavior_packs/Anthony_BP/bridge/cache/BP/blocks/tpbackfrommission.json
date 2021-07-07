@@ -3,7 +3,7 @@
 	"file_type": "block",
 	"format_version": 1,
 	"file_uuid": "adafb20e_bc62_4fdb_b479_b147923861b2",
-	"file_version": 15,
+	"file_version": 16,
 	"cache_content": {
 		"children": [
 			{
@@ -42,6 +42,12 @@
 									16,
 									16
 								]
+							},
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "opaque",
+									"texture": "texturetpback"
+								}
 							},
 							"minecraft:on_interact": {
 								"event": "veutretourner"
@@ -93,6 +99,12 @@
 										16,
 										16
 									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "texturetpback"
+									}
 								},
 								"minecraft:on_interact": {
 									"event": "veutretourner"
@@ -148,6 +160,12 @@
 										16,
 										16
 									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "texturetpback"
+									}
 								},
 								"minecraft:on_interact": {
 									"event": "veutretourner"
@@ -263,21 +281,56 @@
 								]
 							},
 							{
+								"open": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:material_instances": {
+										"*": {
+											"render_method": "opaque",
+											"texture": "texturetpback"
+										}
+									},
+									"minecraft:on_interact": {
+										"event": "veutretourner"
+									},
+									"minecraft:display_name": "Retour au nexus"
+								},
 								"key": "minecraft:material_instances",
-								"is_active": false,
 								"children": [
 									{
 										"open": {
 											"*": {
-												"texture": "textureblockvierge",
-												"render_method": "opaque"
+												"render_method": "opaque",
+												"texture": "texturetpback"
 											}
 										},
 										"key": "*",
 										"is_minified": true,
 										"children": {
-											"texture": "textureblockvierge",
-											"render_method": "opaque"
+											"render_method": "opaque",
+											"texture": "texturetpback"
 										}
 									}
 								]
@@ -307,6 +360,12 @@
 											16,
 											16
 										]
+									},
+									"minecraft:material_instances": {
+										"*": {
+											"render_method": "opaque",
+											"texture": "texturetpback"
+										}
 									},
 									"minecraft:on_interact": {
 										"event": "veutretourner"
@@ -355,6 +414,12 @@
 										16,
 										16
 									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "texturetpback"
+									}
 								},
 								"minecraft:on_interact": {
 									"event": "veutretourner"
