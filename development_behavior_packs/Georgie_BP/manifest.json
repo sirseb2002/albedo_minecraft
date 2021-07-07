@@ -5,7 +5,7 @@
 		"description": "Tous le travail de Georgie est concentré dans ce pack",
 		"uuid": "8af7e0ac-be4e-11eb-8529-0242ac130003",
 		"version": [
-			1,
+			2,
 			0,
 			0
 		],
@@ -29,7 +29,7 @@
 	"dependencies": [
 		{
 			"version": [
-				1,
+				2,
 				0,
 				0
 			],

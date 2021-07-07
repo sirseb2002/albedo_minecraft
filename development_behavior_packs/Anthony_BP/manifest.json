@@ -6,8 +6,8 @@
 		"description": "Tous le travail d'Anthony est concentré dans ce pack",
 		"uuid": "62f79e90-be4d-11eb-8529-0242ac130003",
 		"version": [
-			1,
-			5,
+			2,
+			0,
 			0
 		],
 		"min_engine_version": [
@@ -30,8 +30,8 @@
 	"dependencies": [
 		{
 			"version": [
-				1,
-				5,
+				2,
+				0,
 				0
 			],
 			"uuid": "76f359ca-be4d-11eb-8529-0242ac130003"
