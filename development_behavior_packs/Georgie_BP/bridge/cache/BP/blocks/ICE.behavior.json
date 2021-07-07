@@ -1,0 +1,302 @@
+{
+	"file_path": "C:\\Users\\George\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Georgie_BP\\blocks\\ICE.behavior.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "b2eb2726_b4ba_414f_a9db_85f8d39f5cba",
+	"file_version": 20,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "georgi:icemun",
+							"is_experimental": true
+						},
+						"components": {
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "opaque",
+									"texture": "icemun"
+								}
+							}
+						},
+						"events": {}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "georgi:icemun",
+							"is_experimental": true
+						},
+						"components": {
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "opaque",
+									"texture": "icemun"
+								}
+							}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "georgi:icemun",
+								"is_experimental": true
+							},
+							"components": {
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "icemun"
+									}
+								}
+							},
+							"events": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "georgi:icemun",
+							"is_experimental": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "georgi:icemun",
+								"is_experimental": true
+							},
+							"components": {
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "icemun"
+									}
+								}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:entity_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-8,
+											0,
+											-8
+										]
+									},
+									{
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											16,
+											16,
+											16
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:pick_collision",
+								"is_minified": true,
+								"children": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								}
+							},
+							{
+								"open": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:material_instances": {
+										"*": {
+											"render_method": "opaque",
+											"texture": "icemun"
+										}
+									}
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"render_method": "opaque",
+												"texture": "icemun"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"render_method": "opaque",
+											"texture": "icemun"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}
