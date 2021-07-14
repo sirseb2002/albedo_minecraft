@@ -1,0 +1,33 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "miroar:certificatemun"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "certificatmun"
+			},
+			"minecraft:display_name": {
+				"value": "Certificat Mission 1"
+			},
+			"minecraft:food": {
+				"on_consume": {
+					"event": "completmun"
+				}
+			},
+			"minecraft:use_duration": 0.1,
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"completmun": {
+				"run_command": {
+					"command": [
+						"function munComplete"
+					]
+				}
+			}
+		}
+	}
+}
