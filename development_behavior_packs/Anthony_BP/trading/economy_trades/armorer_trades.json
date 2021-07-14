@@ -1,0 +1,32 @@
+//bridge-file-version: #19
+{
+	"tiers": [
+		{
+			"total_exp_required": 0,
+			"groups": [
+				{
+					"num_to_select": 1,
+					"trades": [
+						{
+							"wants": [
+								{
+									"quantity": 5,
+									"item": "miroar:harderconcrete"
+								}
+							],
+							"gives": [
+								{
+									"quantity": 1,
+									"item": "miroar:certificatemun"
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": 1,
+							"reward_exp": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

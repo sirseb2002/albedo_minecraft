@@ -1,0 +1,5 @@
+##bridge-file-version: #1
+pack.name=MiRoaR Projet Vierge
+pack.description=Un projet vierge pour tester tes compétences
+tile.miroar:blockvierge.name = Nom aléatoire pour le block vierge
+item.miroar:carteun=Carte de rank 01

@@ -1,0 +1,81 @@
+//bridge-file-version: #1
+{
+	"tiers": [
+		{
+			"total_exp_required": 0,
+			"groups": [
+				{
+					"num_to_select": 1,
+					"trades": [
+						{
+							"wants": [
+								{
+									"quantity": 1,
+									"item": "miroar:harderconcrete"
+								}
+							],
+							"gives": [
+								{
+									"quantity": 1,
+									"item": "miroar:ticketjuinvingtvingtetun"
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": 10,
+							"reward_exp": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"total_exp_required": 75,
+			"groups": [
+				{
+					"num_to_select": 1,
+					"trades": [
+						{
+							"wants": [
+								{
+									"quantity": 1,
+									"item": "miroar:ticketjuinvingtvingtetun"
+								}
+							],
+							"gives": [
+								{
+									"quantity": 1,
+									"item": "minecraft:leather_helmet"
+								}
+							],
+							"trader_exp": 0,
+							"max_uses": 1,
+							"reward_exp": false
+						}
+					]
+				},
+				{
+					"num_to_select": 1,
+					"trades": [
+						{
+							"wants": [
+								{
+									"quantity": 5,
+									"item": "miroar:ticketjuinvingtvingtetun"
+								}
+							],
+							"gives": [
+								{
+									"quantity": 1,
+									"item": "minecraft:netherite_helmet"
+								}
+							],
+							"trader_exp": 0,
+							"max_uses": 1,
+							"reward_exp": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

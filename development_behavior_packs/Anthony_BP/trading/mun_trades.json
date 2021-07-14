@@ -1,0 +1,46 @@
+//bridge-file-version: #3
+{
+	"tiers": [
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "miroar:carteun",
+							"quantity": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "miroar:carteun",
+							"functions": [
+								{
+									"function": "tp_mission_01"
+								}
+							]
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": {
+								"min": 4,
+								"max": 6
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:iron_helmet"
+						}
+					]
+				}
+			]
+		}
+	]
+}
