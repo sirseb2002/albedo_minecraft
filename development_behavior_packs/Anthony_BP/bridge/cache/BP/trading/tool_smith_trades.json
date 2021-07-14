@@ -1,0 +1,699 @@
+{
+	"file_path": "C:\\Users\\antho\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Anthony_BP\\trading\\tool_smith_trades.json",
+	"file_type": "trade_table",
+	"format_version": 1,
+	"file_uuid": "207cf0ce_26ac_4785_8c7c_9a84e98e2cef",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"tiers": [
+						{
+							"trades": [
+								{
+									"wants": [
+										{
+											"quantity": {
+												"min": 1,
+												"max": 1
+											},
+											"item": "miroar:harderconcrete"
+										}
+									],
+									"gives": [
+										{
+											"item": "miroar:ticketjuinvingtvingtetun"
+										}
+									]
+								}
+							]
+						},
+						{
+							"trades": [
+								{
+									"wants": [
+										{
+											"quantity": {
+												"min": 1,
+												"max": 1
+											},
+											"item": "miroar:ticketjuinvingtvingtetun"
+										}
+									],
+									"gives": [
+										{
+											"item": "minecraft:leather_helmet"
+										}
+									]
+								},
+								{
+									"wants": [
+										{
+											"quantity": {
+												"min": 5,
+												"max": 5
+											},
+											"item": "miroar:ticketjuinvingtvingtetun"
+										}
+									],
+									"gives": [
+										{
+											"item": "minecraft:netherite_helmet"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "tiers",
+				"children": [
+					{
+						"open": [
+							{
+								"trades": [
+									{
+										"wants": [
+											{
+												"quantity": {
+													"min": 1,
+													"max": 1
+												},
+												"item": "miroar:harderconcrete"
+											}
+										],
+										"gives": [
+											{
+												"item": "miroar:ticketjuinvingtvingtetun"
+											}
+										]
+									}
+								]
+							},
+							{
+								"trades": [
+									{
+										"wants": [
+											{
+												"quantity": {
+													"min": 1,
+													"max": 1
+												},
+												"item": "miroar:ticketjuinvingtvingtetun"
+											}
+										],
+										"gives": [
+											{
+												"item": "minecraft:leather_helmet"
+											}
+										]
+									},
+									{
+										"wants": [
+											{
+												"quantity": {
+													"min": 5,
+													"max": 5
+												},
+												"item": "miroar:ticketjuinvingtvingtetun"
+											}
+										],
+										"gives": [
+											{
+												"item": "minecraft:netherite_helmet"
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"trades": [
+										{
+											"wants": [
+												{
+													"quantity": {
+														"min": 1,
+														"max": 1
+													},
+													"item": "miroar:harderconcrete"
+												}
+											],
+											"gives": [
+												{
+													"item": "miroar:ticketjuinvingtvingtetun"
+												}
+											]
+										}
+									]
+								},
+								"key": "trades",
+								"children": [
+									{
+										"open": [
+											{
+												"wants": [
+													{
+														"quantity": {
+															"min": 1,
+															"max": 1
+														},
+														"item": "miroar:harderconcrete"
+													}
+												],
+												"gives": [
+													{
+														"item": "miroar:ticketjuinvingtvingtetun"
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"open": {
+													"wants": [
+														{
+															"quantity": {
+																"min": 1,
+																"max": 1
+															},
+															"item": "miroar:harderconcrete"
+														}
+													],
+													"gives": [
+														{
+															"item": "miroar:ticketjuinvingtvingtetun"
+														}
+													]
+												},
+												"key": "wants",
+												"children": [
+													{
+														"open": [
+															{
+																"quantity": {
+																	"min": 1,
+																	"max": 1
+																},
+																"item": "miroar:harderconcrete"
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"quantity": {
+																		"min": 1,
+																		"max": 1
+																	},
+																	"item": "miroar:harderconcrete"
+																},
+																"key": "quantity",
+																"is_minified": true,
+																"children": {
+																	"min": 1,
+																	"max": 1
+																}
+															},
+															{
+																"data": "miroar:harderconcrete",
+																"key": "item"
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": {
+													"wants": [
+														{
+															"quantity": {
+																"min": 1,
+																"max": 1
+															},
+															"item": "miroar:harderconcrete"
+														}
+													],
+													"gives": [
+														{
+															"item": "miroar:ticketjuinvingtvingtetun"
+														}
+													]
+												},
+												"key": "gives",
+												"children": [
+													{
+														"open": [
+															{
+																"item": "miroar:ticketjuinvingtvingtetun"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"item": "miroar:ticketjuinvingtvingtetun"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"is_active": false,
+										"is_minified": true,
+										"children": {
+											"wants": [
+												{
+													"item": "minecraft:emerald",
+													"quantity": {
+														"min": 5,
+														"max": 7
+													}
+												}
+											],
+											"gives": [
+												{
+													"item": "minecraft:iron_shovel",
+													"functions": [
+														{
+															"function": "enchant_with_levels",
+															"treasure": false,
+															"levels": {
+																"min": 5,
+																"max": 19
+															}
+														}
+													]
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": [
+							{
+								"trades": [
+									{
+										"wants": [
+											{
+												"quantity": {
+													"min": 1,
+													"max": 1
+												},
+												"item": "miroar:harderconcrete"
+											}
+										],
+										"gives": [
+											{
+												"item": "miroar:ticketjuinvingtvingtetun"
+											}
+										]
+									}
+								]
+							},
+							{
+								"trades": [
+									{
+										"wants": [
+											{
+												"quantity": {
+													"min": 1,
+													"max": 1
+												},
+												"item": "miroar:ticketjuinvingtvingtetun"
+											}
+										],
+										"gives": [
+											{
+												"item": "minecraft:leather_helmet"
+											}
+										]
+									},
+									{
+										"wants": [
+											{
+												"quantity": {
+													"min": 5,
+													"max": 5
+												},
+												"item": "miroar:ticketjuinvingtvingtetun"
+											}
+										],
+										"gives": [
+											{
+												"item": "minecraft:netherite_helmet"
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"trades": [
+										{
+											"wants": [
+												{
+													"quantity": {
+														"min": 1,
+														"max": 1
+													},
+													"item": "miroar:ticketjuinvingtvingtetun"
+												}
+											],
+											"gives": [
+												{
+													"item": "minecraft:leather_helmet"
+												}
+											]
+										},
+										{
+											"wants": [
+												{
+													"quantity": {
+														"min": 5,
+														"max": 5
+													},
+													"item": "miroar:ticketjuinvingtvingtetun"
+												}
+											],
+											"gives": [
+												{
+													"item": "minecraft:netherite_helmet"
+												}
+											]
+										}
+									]
+								},
+								"key": "trades",
+								"children": [
+									{
+										"open": [
+											{
+												"wants": [
+													{
+														"quantity": {
+															"min": 1,
+															"max": 1
+														},
+														"item": "miroar:ticketjuinvingtvingtetun"
+													}
+												],
+												"gives": [
+													{
+														"item": "minecraft:leather_helmet"
+													}
+												]
+											},
+											{
+												"wants": [
+													{
+														"quantity": {
+															"min": 5,
+															"max": 5
+														},
+														"item": "miroar:ticketjuinvingtvingtetun"
+													}
+												],
+												"gives": [
+													{
+														"item": "minecraft:netherite_helmet"
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"open": {
+													"wants": [
+														{
+															"quantity": {
+																"min": 1,
+																"max": 1
+															},
+															"item": "miroar:ticketjuinvingtvingtetun"
+														}
+													],
+													"gives": [
+														{
+															"item": "minecraft:leather_helmet"
+														}
+													]
+												},
+												"key": "wants",
+												"children": [
+													{
+														"open": [
+															{
+																"quantity": {
+																	"min": 1,
+																	"max": 1
+																},
+																"item": "miroar:ticketjuinvingtvingtetun"
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"quantity": {
+																		"min": 1,
+																		"max": 1
+																	},
+																	"item": "miroar:ticketjuinvingtvingtetun"
+																},
+																"key": "quantity",
+																"is_minified": true,
+																"children": {
+																	"min": 1,
+																	"max": 1
+																}
+															},
+															{
+																"data": "miroar:ticketjuinvingtvingtetun",
+																"key": "item"
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": {
+													"wants": [
+														{
+															"quantity": {
+																"min": 1,
+																"max": 1
+															},
+															"item": "miroar:ticketjuinvingtvingtetun"
+														}
+													],
+													"gives": [
+														{
+															"item": "minecraft:leather_helmet"
+														}
+													]
+												},
+												"key": "gives",
+												"children": [
+													{
+														"open": [
+															{
+																"item": "minecraft:leather_helmet"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"item": "minecraft:leather_helmet"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": [
+											{
+												"wants": [
+													{
+														"quantity": {
+															"min": 1,
+															"max": 1
+														},
+														"item": "miroar:ticketjuinvingtvingtetun"
+													}
+												],
+												"gives": [
+													{
+														"item": "minecraft:leather_helmet"
+													}
+												]
+											},
+											{
+												"wants": [
+													{
+														"quantity": {
+															"min": 5,
+															"max": 5
+														},
+														"item": "miroar:ticketjuinvingtvingtetun"
+													}
+												],
+												"gives": [
+													{
+														"item": "minecraft:netherite_helmet"
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"open": {
+													"wants": [
+														{
+															"quantity": {
+																"min": 5,
+																"max": 5
+															},
+															"item": "miroar:ticketjuinvingtvingtetun"
+														}
+													],
+													"gives": [
+														{
+															"item": "minecraft:netherite_helmet"
+														}
+													]
+												},
+												"key": "wants",
+												"children": [
+													{
+														"open": [
+															{
+																"quantity": {
+																	"min": 5,
+																	"max": 5
+																},
+																"item": "miroar:ticketjuinvingtvingtetun"
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"quantity": {
+																		"min": 5,
+																		"max": 5
+																	},
+																	"item": "miroar:ticketjuinvingtvingtetun"
+																},
+																"key": "quantity",
+																"is_minified": true,
+																"children": {
+																	"min": 5,
+																	"max": 5
+																}
+															},
+															{
+																"data": "miroar:ticketjuinvingtvingtetun",
+																"key": "item"
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": {
+													"wants": [
+														{
+															"quantity": {
+																"min": 5,
+																"max": 5
+															},
+															"item": "miroar:ticketjuinvingtvingtetun"
+														}
+													],
+													"gives": [
+														{
+															"item": "minecraft:netherite_helmet"
+														}
+													]
+												},
+												"key": "gives",
+												"children": [
+													{
+														"open": [
+															{
+																"item": "minecraft:netherite_helmet"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"item": "minecraft:netherite_helmet"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"is_active": false,
+						"is_minified": true,
+						"children": {
+							"trades": [
+								{
+									"wants": [
+										{
+											"item": "minecraft:diamond",
+											"quantity": {
+												"min": 3,
+												"max": 4
+											}
+										}
+									],
+									"gives": [
+										{
+											"item": "minecraft:emerald"
+										}
+									]
+								},
+								{
+									"wants": [
+										{
+											"item": "minecraft:emerald",
+											"quantity": {
+												"min": 12,
+												"max": 15
+											}
+										}
+									],
+									"gives": [
+										{
+											"item": "minecraft:diamond_pickaxe",
+											"functions": [
+												{
+													"function": "enchant_with_levels",
+													"treasure": false,
+													"levels": {
+														"min": 5,
+														"max": 19
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}

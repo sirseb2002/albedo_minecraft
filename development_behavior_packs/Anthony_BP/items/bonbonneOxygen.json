@@ -1,0 +1,36 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "miroar:oxygenbonbonne"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "oxygenbonbonne"
+			},
+			"minecraft:display_name": {
+				"value": "Oxygen (10 min.)"
+			},
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation_modifier": "poor",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "ajout_des_effects"
+				}
+			},
+			"minecraft:use_duration": 2,
+			"minecraft:use_animation": "drink"
+		},
+		"events": {
+			"ajout_des_effects": {
+				"run_command": {
+					"command": [
+						"function oxygendixmin"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,75 @@
+{
+	"file_path": "C:\\Users\\antho\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Anthony_BP\\recipes\\liquidcotwo.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "40d1bdc9_7d80_4fc1_b749_9dfa9f8012f0",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "miroar:liquidcotwo"
+						},
+						"tags": [
+							"blast_furnace"
+						],
+						"input": "georgi:icemun",
+						"output": "miroar:liquidcotwo"
+					}
+				},
+				"key": "minecraft:recipe_furnace",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "miroar:liquidcotwo"
+							},
+							"tags": [
+								"blast_furnace"
+							],
+							"input": "georgi:icemun",
+							"output": "miroar:liquidcotwo"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "miroar:liquidcotwo"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "miroar:liquidcotwo"
+							},
+							"tags": [
+								"blast_furnace"
+							],
+							"input": "georgi:icemun",
+							"output": "miroar:liquidcotwo"
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"blast_furnace"
+						]
+					},
+					{
+						"data": "georgi:icemun",
+						"key": "input"
+					},
+					{
+						"data": "miroar:liquidcotwo",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}

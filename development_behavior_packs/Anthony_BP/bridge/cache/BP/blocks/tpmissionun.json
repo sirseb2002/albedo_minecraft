@@ -1,0 +1,511 @@
+{
+	"file_path": "C:\\Users\\antho\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Anthony_BP\\blocks\\tpmissionun.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "ed523962_0b9e_47ab_bc1c_7242e7eb58ab",
+	"file_version": 41,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "miroar:tpmissionun",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "opaque",
+									"texture": "tpmissionun"
+								}
+							},
+							"minecraft:on_interact": {
+								"event": "tpmun"
+							},
+							"minecraft:display_name": "Mission 1"
+						},
+						"events": {
+							"tpmun": {
+								"run_command": {
+									"command": [
+										"function tp_mission_01",
+										"function clearinventaire"
+									],
+									"target": "other"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "miroar:tpmissionun",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "tpmissionun"
+									}
+								},
+								"minecraft:on_interact": {
+									"event": "tpmun"
+								},
+								"minecraft:display_name": "Mission 1"
+							},
+							"events": {
+								"tpmun": {
+									"run_command": {
+										"command": [
+											"function tp_mission_01",
+											"function clearinventaire"
+										],
+										"target": "other"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "miroar:tpmissionun",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "miroar:tpmissionun",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "tpmissionun"
+									}
+								},
+								"minecraft:on_interact": {
+									"event": "tpmun"
+								},
+								"minecraft:display_name": "Mission 1"
+							},
+							"events": {
+								"tpmun": {
+									"run_command": {
+										"command": [
+											"function tp_mission_01",
+											"function clearinventaire"
+										],
+										"target": "other"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"comment": "[Obligatoire] Délimiter la zone de que va prendre le block dans l'espace (Hit box)",
+								"key": "minecraft:entity_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"comment": "Le point d'origine pour les transformations",
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-8,
+											0,
+											-8
+										]
+									},
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"comment": "La grandeur de la hit box à partir du point d'origine",
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											16,
+											16,
+											16
+										]
+									}
+								]
+							},
+							{
+								"comment": "[Obligatoire] Délimiter la zone où il faut mettre le curseur pour miner le block ou interagir",
+								"key": "minecraft:pick_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"comment": "Le point d'origine pour les transformations",
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-8,
+											0,
+											-8
+										]
+									},
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"comment": "La grandeur de la hit box à partir du point d'origine",
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											16,
+											16,
+											16
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:material_instances": {
+										"*": {
+											"render_method": "opaque",
+											"texture": "tpmissionun"
+										}
+									},
+									"minecraft:on_interact": {
+										"event": "tpmun"
+									},
+									"minecraft:display_name": "Mission 1"
+								},
+								"comment": "Applique la texture qui a été désigné dans le fichier terrain_texture.json",
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"render_method": "opaque",
+												"texture": "tpmissionun"
+											}
+										},
+										"key": "*",
+										"children": [
+											{
+												"comment": "Signifie que la texture n'a pas d'alpha et que l'on ne veux pas faire de test pour voir.",
+												"data": "opaque",
+												"key": "render_method"
+											},
+											{
+												"data": "tpmissionun",
+												"key": "texture"
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:material_instances": {
+										"*": {
+											"render_method": "opaque",
+											"texture": "tpmissionun"
+										}
+									},
+									"minecraft:on_interact": {
+										"event": "tpmun"
+									},
+									"minecraft:display_name": "Mission 1"
+								},
+								"key": "minecraft:on_interact",
+								"is_minified": true,
+								"children": {
+									"event": "tpmun"
+								}
+							},
+							{
+								"data": "Mission 1",
+								"key": "minecraft:display_name"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "miroar:tpmissionun",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "tpmissionun"
+									}
+								},
+								"minecraft:on_interact": {
+									"event": "tpmun"
+								},
+								"minecraft:display_name": "Mission 1"
+							},
+							"events": {
+								"tpmun": {
+									"run_command": {
+										"command": [
+											"function tp_mission_01",
+											"function clearinventaire"
+										],
+										"target": "other"
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"tpmun": {
+										"run_command": {
+											"command": [
+												"function tp_mission_01",
+												"function clearinventaire"
+											],
+											"target": "other"
+										}
+									}
+								},
+								"key": "tpmun",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"function tp_mission_01",
+													"function clearinventaire"
+												],
+												"target": "other"
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"function tp_mission_01",
+														"function clearinventaire"
+													],
+													"target": "other"
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"function tp_mission_01",
+													"function clearinventaire"
+												]
+											},
+											{
+												"data": "other",
+												"key": "target"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

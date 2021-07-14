@@ -1,0 +1,214 @@
+{
+	"file_path": "C:\\Users\\antho\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Anthony_RP\\textures\\terrain_texture.json",
+	"file_type": "terrain_texture",
+	"format_version": 1,
+	"file_uuid": "f0fbc4fa_ee9c_40ca_aedd_f1cb9695a67b",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.terrain",
+				"key": "texture_name"
+			},
+			{
+				"data": "8",
+				"key": "padding"
+			},
+			{
+				"data": "4",
+				"key": "num_mip_levels"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"textureblockvierge": {
+							"textures": [
+								{
+									"path": "textures/blocks/viergeblock"
+								}
+							]
+						},
+						"tpmissionun": {
+							"textures": [
+								{
+									"path": "textures/blocks/tpmun"
+								}
+							]
+						},
+						"texturetpback": {
+							"textures": [
+								{
+									"path": "textures/blocks/tpnexus"
+								}
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"open": {
+							"textureblockvierge": {
+								"textures": [
+									{
+										"path": "textures/blocks/viergeblock"
+									}
+								]
+							},
+							"tpmissionun": {
+								"textures": [
+									{
+										"path": "textures/blocks/tpmun"
+									}
+								]
+							},
+							"texturetpback": {
+								"textures": [
+									{
+										"path": "textures/blocks/tpnexus"
+									}
+								]
+							}
+						},
+						"key": "textureblockvierge",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										{
+											"path": "textures/blocks/viergeblock"
+										}
+									]
+								},
+								"key": "textures",
+								"children": [
+									{
+										"open": [
+											{
+												"path": "textures/blocks/viergeblock"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"path": "textures/blocks/viergeblock"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"textureblockvierge": {
+								"textures": [
+									{
+										"path": "textures/blocks/viergeblock"
+									}
+								]
+							},
+							"tpmissionun": {
+								"textures": [
+									{
+										"path": "textures/blocks/tpmun"
+									}
+								]
+							},
+							"texturetpback": {
+								"textures": [
+									{
+										"path": "textures/blocks/tpnexus"
+									}
+								]
+							}
+						},
+						"key": "tpmissionun",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										{
+											"path": "textures/blocks/tpmun"
+										}
+									]
+								},
+								"key": "textures",
+								"children": [
+									{
+										"open": [
+											{
+												"path": "textures/blocks/tpmun"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"path": "textures/blocks/tpmun"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"textureblockvierge": {
+								"textures": [
+									{
+										"path": "textures/blocks/viergeblock"
+									}
+								]
+							},
+							"tpmissionun": {
+								"textures": [
+									{
+										"path": "textures/blocks/tpmun"
+									}
+								]
+							},
+							"texturetpback": {
+								"textures": [
+									{
+										"path": "textures/blocks/tpnexus"
+									}
+								]
+							}
+						},
+						"key": "texturetpback",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										{
+											"path": "textures/blocks/tpnexus"
+										}
+									]
+								},
+								"key": "textures",
+								"children": [
+									{
+										"open": [
+											{
+												"path": "textures/blocks/tpnexus"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"path": "textures/blocks/tpnexus"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

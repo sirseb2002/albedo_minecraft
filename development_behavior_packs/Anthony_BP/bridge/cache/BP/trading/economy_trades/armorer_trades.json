@@ -1,0 +1,1105 @@
+{
+	"file_path": "C:\\Users\\antho\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Anthony_BP\\trading\\economy_trades\\armorer_trades.json",
+	"file_type": "trade_table",
+	"format_version": 1,
+	"file_uuid": "e073f056_d098_4e16_af20_db569b71e225",
+	"file_version": 19,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"tiers": [
+						{
+							"total_exp_required": 0,
+							"groups": [
+								{
+									"num_to_select": 1,
+									"trades": [
+										{
+											"wants": [
+												{
+													"quantity": 5,
+													"item": "miroar:harderconcrete"
+												}
+											],
+											"gives": [
+												{
+													"quantity": 1,
+													"item": "miroar:certificatemun"
+												}
+											],
+											"trader_exp": 1,
+											"max_uses": 1,
+											"reward_exp": false
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "tiers",
+				"children": [
+					{
+						"open": [
+							{
+								"total_exp_required": 0,
+								"groups": [
+									{
+										"num_to_select": 1,
+										"trades": [
+											{
+												"wants": [
+													{
+														"quantity": 5,
+														"item": "miroar:harderconcrete"
+													}
+												],
+												"gives": [
+													{
+														"quantity": 1,
+														"item": "miroar:certificatemun"
+													}
+												],
+												"trader_exp": 1,
+												"max_uses": 1,
+												"reward_exp": false
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "0",
+								"key": "total_exp_required"
+							},
+							{
+								"open": {
+									"total_exp_required": 0,
+									"groups": [
+										{
+											"num_to_select": 1,
+											"trades": [
+												{
+													"wants": [
+														{
+															"quantity": 5,
+															"item": "miroar:harderconcrete"
+														}
+													],
+													"gives": [
+														{
+															"quantity": 1,
+															"item": "miroar:certificatemun"
+														}
+													],
+													"trader_exp": 1,
+													"max_uses": 1,
+													"reward_exp": false
+												}
+											]
+										}
+									]
+								},
+								"key": "groups",
+								"children": [
+									{
+										"children": [
+											{
+												"data": "1",
+												"key": "num_to_select"
+											},
+											{
+												"open": {
+													"num_to_select": 1,
+													"trades": [
+														{
+															"wants": [
+																{
+																	"quantity": 5,
+																	"item": "miroar:harderconcrete"
+																}
+															],
+															"gives": [
+																{
+																	"quantity": 1,
+																	"item": "miroar:certificatemun"
+																}
+															],
+															"trader_exp": 1,
+															"max_uses": 1,
+															"reward_exp": false
+														}
+													]
+												},
+												"key": "trades",
+												"children": [
+													{
+														"open": [
+															{
+																"wants": [
+																	{
+																		"quantity": 5,
+																		"item": "miroar:harderconcrete"
+																	}
+																],
+																"gives": [
+																	{
+																		"quantity": 1,
+																		"item": "miroar:certificatemun"
+																	}
+																],
+																"trader_exp": 1,
+																"max_uses": 1,
+																"reward_exp": false
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"wants": [
+																		{
+																			"quantity": 5,
+																			"item": "miroar:harderconcrete"
+																		}
+																	],
+																	"gives": [
+																		{
+																			"quantity": 1,
+																			"item": "miroar:certificatemun"
+																		}
+																	],
+																	"trader_exp": 1,
+																	"max_uses": 1,
+																	"reward_exp": false
+																},
+																"key": "wants",
+																"children": [
+																	{
+																		"open": [
+																			{
+																				"quantity": 5,
+																				"item": "miroar:harderconcrete"
+																			}
+																		],
+																		"is_minified": true,
+																		"children": {
+																			"quantity": 5,
+																			"item": "miroar:harderconcrete"
+																		}
+																	}
+																]
+															},
+															{
+																"open": {
+																	"wants": [
+																		{
+																			"quantity": 5,
+																			"item": "miroar:harderconcrete"
+																		}
+																	],
+																	"gives": [
+																		{
+																			"quantity": 1,
+																			"item": "miroar:certificatemun"
+																		}
+																	],
+																	"trader_exp": 1,
+																	"max_uses": 1,
+																	"reward_exp": false
+																},
+																"key": "gives",
+																"children": [
+																	{
+																		"open": [
+																			{
+																				"quantity": 1,
+																				"item": "miroar:certificatemun"
+																			}
+																		],
+																		"is_minified": true,
+																		"children": {
+																			"quantity": 1,
+																			"item": "miroar:certificatemun"
+																		}
+																	}
+																]
+															},
+															{
+																"data": "1",
+																"key": "trader_exp"
+															},
+															{
+																"data": "1",
+																"key": "max_uses"
+															},
+															{
+																"data": "false",
+																"key": "reward_exp"
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": [
+											{
+												"num_to_select": 1,
+												"trades": [
+													{
+														"wants": [
+															{
+																"quantity": 5,
+																"item": "miroar:harderconcrete"
+															}
+														],
+														"gives": [
+															{
+																"quantity": 1,
+																"item": "miroar:certificatemun"
+															}
+														],
+														"trader_exp": 1,
+														"max_uses": 1,
+														"reward_exp": false
+													}
+												]
+											}
+										],
+										"is_active": false,
+										"children": [
+											{
+												"data": "1",
+												"key": "num_to_select"
+											},
+											{
+												"open": {
+													"num_to_select": 1,
+													"trades": [
+														{
+															"wants": [
+																{
+																	"quantity": 1,
+																	"item": "miroar:harderconcrete"
+																}
+															],
+															"gives": [
+																{
+																	"quantity": 1,
+																	"item": "miroar:ticketjuinvingtvingtetun"
+																}
+															],
+															"trader_exp": 1,
+															"max_uses": -1,
+															"reward_exp": false
+														}
+													]
+												},
+												"key": "trades",
+												"children": [
+													{
+														"open": [
+															{
+																"wants": [
+																	{
+																		"quantity": 1,
+																		"item": "miroar:harderconcrete"
+																	}
+																],
+																"gives": [
+																	{
+																		"quantity": 1,
+																		"item": "miroar:ticketjuinvingtvingtetun"
+																	}
+																],
+																"trader_exp": 1,
+																"max_uses": -1,
+																"reward_exp": false
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"wants": [
+																		{
+																			"quantity": 1,
+																			"item": "miroar:harderconcrete"
+																		}
+																	],
+																	"gives": [
+																		{
+																			"quantity": 1,
+																			"item": "miroar:ticketjuinvingtvingtetun"
+																		}
+																	],
+																	"trader_exp": 1,
+																	"max_uses": -1,
+																	"reward_exp": false
+																},
+																"key": "wants",
+																"children": [
+																	{
+																		"open": [
+																			{
+																				"quantity": 1,
+																				"item": "miroar:harderconcrete"
+																			}
+																		],
+																		"is_minified": true,
+																		"children": {
+																			"quantity": 1,
+																			"item": "miroar:harderconcrete"
+																		}
+																	}
+																]
+															},
+															{
+																"open": {
+																	"wants": [
+																		{
+																			"quantity": 1,
+																			"item": "miroar:harderconcrete"
+																		}
+																	],
+																	"gives": [
+																		{
+																			"quantity": 1,
+																			"item": "miroar:ticketjuinvingtvingtetun"
+																		}
+																	],
+																	"trader_exp": 1,
+																	"max_uses": -1,
+																	"reward_exp": false
+																},
+																"key": "gives",
+																"children": [
+																	{
+																		"open": [
+																			{
+																				"quantity": 1,
+																				"item": "miroar:ticketjuinvingtvingtetun"
+																			}
+																		],
+																		"is_minified": true,
+																		"children": {
+																			"quantity": 1,
+																			"item": "miroar:ticketjuinvingtvingtetun"
+																		}
+																	}
+																]
+															},
+															{
+																"data": "1",
+																"key": "trader_exp"
+															},
+															{
+																"data": "-1",
+																"key": "max_uses"
+															},
+															{
+																"data": "false",
+																"key": "reward_exp"
+															}
+														]
+													},
+													{
+														"is_active": false,
+														"children": [
+															{
+																"open": {
+																	"wants": [
+																		{
+																			"item": "minecraft:emerald",
+																			"quantity": 4,
+																			"price_multiplier": 0.2
+																		}
+																	],
+																	"gives": [
+																		{
+																			"item": "minecraft:iron_boots",
+																			"quantity": 1
+																		}
+																	],
+																	"trader_exp": 1,
+																	"max_uses": 12,
+																	"reward_exp": true
+																},
+																"key": "wants",
+																"children": [
+																	{
+																		"open": [
+																			{
+																				"item": "minecraft:emerald",
+																				"quantity": 4,
+																				"price_multiplier": 0.2
+																			}
+																		],
+																		"is_minified": true,
+																		"children": {
+																			"item": "minecraft:emerald",
+																			"quantity": 4,
+																			"price_multiplier": 0.2
+																		}
+																	}
+																]
+															},
+															{
+																"open": {
+																	"wants": [
+																		{
+																			"item": "minecraft:emerald",
+																			"quantity": 4,
+																			"price_multiplier": 0.2
+																		}
+																	],
+																	"gives": [
+																		{
+																			"item": "minecraft:iron_boots",
+																			"quantity": 1
+																		}
+																	],
+																	"trader_exp": 1,
+																	"max_uses": 12,
+																	"reward_exp": true
+																},
+																"key": "gives",
+																"children": [
+																	{
+																		"open": [
+																			{
+																				"item": "minecraft:iron_boots",
+																				"quantity": 1
+																			}
+																		],
+																		"is_minified": true,
+																		"children": {
+																			"item": "minecraft:iron_boots",
+																			"quantity": 1
+																		}
+																	}
+																]
+															},
+															{
+																"data": "1",
+																"key": "trader_exp"
+															},
+															{
+																"data": "12",
+																"key": "max_uses"
+															},
+															{
+																"data": "true",
+																"key": "reward_exp"
+															}
+														]
+													},
+													{
+														"is_active": false,
+														"is_minified": true,
+														"children": {
+															"wants": [
+																{
+																	"item": "minecraft:emerald",
+																	"quantity": 5,
+																	"price_multiplier": 0.2
+																}
+															],
+															"gives": [
+																{
+																	"item": "minecraft:iron_helmet",
+																	"quantity": 1
+																}
+															],
+															"trader_exp": 1,
+															"max_uses": 12,
+															"reward_exp": true
+														}
+													},
+													{
+														"is_active": false,
+														"is_minified": true,
+														"children": {
+															"wants": [
+																{
+																	"item": "minecraft:emerald",
+																	"quantity": 9,
+																	"price_multiplier": 0.2
+																}
+															],
+															"gives": [
+																{
+																	"item": "minecraft:iron_chestplate",
+																	"quantity": 1
+																}
+															],
+															"trader_exp": 1,
+															"max_uses": 12,
+															"reward_exp": true
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"is_active": false,
+						"children": [
+							{
+								"open": {
+									"total_exp_required": 5,
+									"groups": [
+										{
+											"num_to_select": 1,
+											"trades": [
+												{
+													"wants": [
+														{
+															"quantity": 1,
+															"item": "miroar:ticketjuinvingtvingtetun"
+														}
+													],
+													"gives": [
+														{
+															"quantity": 1,
+															"item": "minecraft:netherite_helmet"
+														}
+													],
+													"trader_exp": 10,
+													"max_uses": 1,
+													"reward_exp": false
+												}
+											]
+										}
+									]
+								},
+								"data": "5",
+								"key": "total_exp_required"
+							},
+							{
+								"open": {
+									"total_exp_required": 5,
+									"groups": [
+										{
+											"num_to_select": 1,
+											"trades": [
+												{
+													"wants": [
+														{
+															"quantity": 1,
+															"item": "miroar:ticketjuinvingtvingtetun"
+														}
+													],
+													"gives": [
+														{
+															"quantity": 1,
+															"item": "minecraft:netherite_helmet"
+														}
+													],
+													"trader_exp": 10,
+													"max_uses": 1,
+													"reward_exp": false
+												}
+											]
+										}
+									]
+								},
+								"key": "groups",
+								"children": [
+									{
+										"open": [
+											{
+												"num_to_select": 1,
+												"trades": [
+													{
+														"wants": [
+															{
+																"quantity": 1,
+																"item": "miroar:ticketjuinvingtvingtetun"
+															}
+														],
+														"gives": [
+															{
+																"quantity": 1,
+																"item": "minecraft:netherite_helmet"
+															}
+														],
+														"trader_exp": 10,
+														"max_uses": 1,
+														"reward_exp": false
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "1",
+												"key": "num_to_select"
+											},
+											{
+												"open": {
+													"num_to_select": 1,
+													"trades": [
+														{
+															"wants": [
+																{
+																	"quantity": 1,
+																	"item": "miroar:ticketjuinvingtvingtetun"
+																}
+															],
+															"gives": [
+																{
+																	"quantity": 1,
+																	"item": "minecraft:netherite_helmet"
+																}
+															],
+															"trader_exp": 10,
+															"max_uses": 1,
+															"reward_exp": false
+														}
+													]
+												},
+												"key": "trades",
+												"children": [
+													{
+														"open": [
+															{
+																"wants": [
+																	{
+																		"quantity": 1,
+																		"item": "miroar:ticketjuinvingtvingtetun"
+																	}
+																],
+																"gives": [
+																	{
+																		"quantity": 1,
+																		"item": "minecraft:netherite_helmet"
+																	}
+																],
+																"trader_exp": 10,
+																"max_uses": 1,
+																"reward_exp": false
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"wants": [
+																		{
+																			"quantity": 1,
+																			"item": "miroar:ticketjuinvingtvingtetun"
+																		}
+																	],
+																	"gives": [
+																		{
+																			"quantity": 1,
+																			"item": "minecraft:netherite_helmet"
+																		}
+																	],
+																	"trader_exp": 10,
+																	"max_uses": 1,
+																	"reward_exp": false
+																},
+																"key": "wants",
+																"children": [
+																	{
+																		"open": [
+																			{
+																				"quantity": 1,
+																				"item": "miroar:ticketjuinvingtvingtetun"
+																			}
+																		],
+																		"is_minified": true,
+																		"children": {
+																			"quantity": 1,
+																			"item": "miroar:ticketjuinvingtvingtetun"
+																		}
+																	}
+																]
+															},
+															{
+																"open": {
+																	"wants": [
+																		{
+																			"quantity": 1,
+																			"item": "miroar:ticketjuinvingtvingtetun"
+																		}
+																	],
+																	"gives": [
+																		{
+																			"quantity": 1,
+																			"item": "minecraft:netherite_helmet"
+																		}
+																	],
+																	"trader_exp": 10,
+																	"max_uses": 1,
+																	"reward_exp": false
+																},
+																"key": "gives",
+																"children": [
+																	{
+																		"open": [
+																			{
+																				"quantity": 1,
+																				"item": "minecraft:netherite_helmet"
+																			}
+																		],
+																		"is_minified": true,
+																		"children": {
+																			"quantity": 1,
+																			"item": "minecraft:netherite_helmet"
+																		}
+																	}
+																]
+															},
+															{
+																"data": "10",
+																"key": "trader_exp"
+															},
+															{
+																"data": "1",
+																"key": "max_uses"
+															},
+															{
+																"data": "false",
+																"key": "reward_exp"
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"is_active": false,
+										"is_minified": true,
+										"children": {
+											"num_to_select": 1,
+											"trades": [
+												{
+													"wants": [
+														{
+															"item": "minecraft:emerald",
+															"quantity": 36,
+															"price_multiplier": 0.2
+														}
+													],
+													"gives": [
+														{
+															"item": "minecraft:bell",
+															"quantity": 1
+														}
+													],
+													"trader_exp": 5,
+													"max_uses": 12,
+													"reward_exp": true
+												},
+												{
+													"wants": [
+														{
+															"item": "minecraft:emerald",
+															"quantity": 1,
+															"price_multiplier": 0.2
+														}
+													],
+													"gives": [
+														{
+															"item": "minecraft:chainmail_boots",
+															"quantity": 1
+														}
+													],
+													"trader_exp": 5,
+													"max_uses": 12,
+													"reward_exp": true
+												},
+												{
+													"wants": [
+														{
+															"item": "minecraft:emerald",
+															"quantity": 3,
+															"price_multiplier": 0.2
+														}
+													],
+													"gives": [
+														{
+															"item": "minecraft:chainmail_leggings",
+															"quantity": 1
+														}
+													],
+													"trader_exp": 5,
+													"max_uses": 12,
+													"reward_exp": true
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"is_active": false,
+						"is_minified": true,
+						"children": {
+							"total_exp_required": 70,
+							"groups": [
+								{
+									"num_to_select": 1,
+									"trades": [
+										{
+											"wants": [
+												{
+													"item": "minecraft:bucket:10",
+													"quantity": 1,
+													"price_multiplier": 0.05
+												}
+											],
+											"gives": [
+												{
+													"item": "minecraft:emerald",
+													"quantity": 1
+												}
+											],
+											"trader_exp": 20,
+											"max_uses": 12,
+											"reward_exp": true
+										}
+									]
+								},
+								{
+									"num_to_select": 1,
+									"trades": [
+										{
+											"wants": [
+												{
+													"item": "minecraft:emerald",
+													"quantity": 1,
+													"price_multiplier": 0.2
+												}
+											],
+											"gives": [
+												{
+													"item": "minecraft:chainmail_helmet",
+													"quantity": 1
+												}
+											],
+											"trader_exp": 10,
+											"max_uses": 12,
+											"reward_exp": true
+										},
+										{
+											"wants": [
+												{
+													"item": "minecraft:emerald",
+													"quantity": 4,
+													"price_multiplier": 0.2
+												}
+											],
+											"gives": [
+												{
+													"item": "minecraft:chainmail_chestplate",
+													"quantity": 1
+												}
+											],
+											"trader_exp": 10,
+											"max_uses": 12,
+											"reward_exp": true
+										},
+										{
+											"wants": [
+												{
+													"item": "minecraft:emerald",
+													"quantity": 5,
+													"price_multiplier": 0.2
+												}
+											],
+											"gives": [
+												{
+													"item": "minecraft:shield",
+													"quantity": 1
+												}
+											],
+											"trader_exp": 10,
+											"max_uses": 12,
+											"reward_exp": true
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"is_active": false,
+						"is_minified": true,
+						"children": {
+							"total_exp_required": 150,
+							"groups": [
+								{
+									"num_to_select": 1,
+									"trades": [
+										{
+											"wants": [
+												{
+													"item": "minecraft:diamond",
+													"quantity": 1,
+													"price_multiplier": 0.05
+												}
+											],
+											"gives": [
+												{
+													"item": "minecraft:emerald",
+													"quantity": 1
+												}
+											],
+											"trader_exp": 30,
+											"max_uses": 12,
+											"reward_exp": true
+										}
+									]
+								},
+								{
+									"num_to_select": 1,
+									"trades": [
+										{
+											"wants": [
+												{
+													"item": "minecraft:emerald",
+													"quantity": 14,
+													"price_multiplier": 0.2
+												}
+											],
+											"gives": [
+												{
+													"item": "minecraft:diamond_leggings",
+													"quantity": 1,
+													"functions": [
+														{
+															"function": "enchant_with_levels",
+															"treasure": false,
+															"levels": {
+																"min": 5,
+																"max": 19
+															}
+														}
+													]
+												}
+											],
+											"trader_exp": 15,
+											"max_uses": 3,
+											"reward_exp": true
+										},
+										{
+											"wants": [
+												{
+													"item": "minecraft:emerald",
+													"quantity": 8,
+													"price_multiplier": 0.2
+												}
+											],
+											"gives": [
+												{
+													"item": "minecraft:diamond_boots",
+													"quantity": 1,
+													"functions": [
+														{
+															"function": "enchant_with_levels",
+															"treasure": false,
+															"levels": {
+																"min": 5,
+																"max": 19
+															}
+														}
+													]
+												}
+											],
+											"trader_exp": 15,
+											"max_uses": 3,
+											"reward_exp": true
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"is_active": false,
+						"is_minified": true,
+						"children": {
+							"total_exp_required": 250,
+							"groups": [
+								{
+									"num_to_select": 1,
+									"trades": [
+										{
+											"wants": [
+												{
+													"item": "minecraft:emerald",
+													"quantity": 8,
+													"price_multiplier": 0.2
+												}
+											],
+											"gives": [
+												{
+													"item": "minecraft:diamond_helmet",
+													"quantity": 1,
+													"functions": [
+														{
+															"function": "enchant_with_levels",
+															"treasure": false,
+															"levels": {
+																"min": 5,
+																"max": 19
+															}
+														}
+													]
+												}
+											],
+											"trader_exp": 30,
+											"max_uses": 3,
+											"reward_exp": true
+										},
+										{
+											"wants": [
+												{
+													"item": "minecraft:emerald",
+													"quantity": 16,
+													"price_multiplier": 0.2
+												}
+											],
+											"gives": [
+												{
+													"item": "minecraft:diamond_chestplate",
+													"quantity": 1,
+													"functions": [
+														{
+															"function": "enchant_with_levels",
+															"treasure": false,
+															"levels": {
+																"min": 5,
+																"max": 19
+															}
+														}
+													]
+												}
+											],
+											"trader_exp": 30,
+											"max_uses": 3,
+											"reward_exp": true
+										}
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}
