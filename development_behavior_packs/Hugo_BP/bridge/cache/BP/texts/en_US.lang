@@ -1,8 +1,0 @@
-{
-	"file_path": "C:\\Users\\antho\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\MiRoaR Projet Vierge\\texts\\en_US.lang",
-	"file_type": "lang",
-	"format_version": 0,
-	"file_uuid": "4edbbc30_4fb1_4683_ab87_ceae7c2a084e",
-	"file_version": 0,
-	"cache_content": "pack.name=MiRoaR Projet Vierge\r\npack.description=Un projet vierge pour tester tes compétences\r\ntile.miroar:blockvierge.name = Nom aléatoire pour le block vierge"
-}
