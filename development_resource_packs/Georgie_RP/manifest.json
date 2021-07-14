@@ -1,0 +1,37 @@
+//bridge-file-version: #6
+{
+	"format_version": 2,
+	"header": {
+		"name": "Test Ressource pack de Georgie",
+		"description": "Tous le travail de Georgie est concentré dans ce pack",
+		"uuid": "d14b41e4-c2f3-11eb-8529-0242ac130003",
+		"version": [
+			2,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "00221159-f066-4f88-8173-3c6298e77294",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"license": "MiRoar Inc.",
+		"url": "miroar.ca",
+		"authors": [
+			"Georgi Gergov"
+		]
+	}
+}
