@@ -1,0 +1,50 @@
+{
+	"file_path": "C:\\Users\\seb_r\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Hugo_RP\\blocks.json",
+	"file_type": "client_block",
+	"format_version": 1,
+	"file_uuid": "d4789199_0971_439b_856b_841510aa7520",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"miroar:tpmissionun_Hugo_2021_07": {
+						"sound": "bamboo",
+						"textures": "tpmissionun"
+					}
+				},
+				"key": "format_version",
+				"is_minified": true,
+				"children": [
+					1,
+					1,
+					0
+				]
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"miroar:tpmissionun_Hugo_2021_07": {
+						"sound": "bamboo",
+						"textures": "tpmissionun"
+					}
+				},
+				"key": "miroar:tpmissionun_Hugo_2021_07",
+				"is_minified": true,
+				"children": {
+					"sound": "bamboo",
+					"textures": "tpmissionun"
+				}
+			}
+		]
+	}
+}

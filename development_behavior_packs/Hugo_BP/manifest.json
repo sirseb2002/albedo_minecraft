@@ -1,12 +1,12 @@
-//bridge-file-version: #15
+//bridge-file-version: #2
 {
 	"format_version": 2,
 	"header": {
-		"name": "Behavior pack de Hugo",
-		"description": "Tous le travail de Hugo est concentré dans ce pack",
-		"uuid": "f954054e-be4e-11eb-8529-0242ac130003",
+		"name": "pack.name",
+		"description": "pack.description",
+		"uuid": "77607e6b-34cd-42f7-85c9-890afb4e4646",
 		"version": [
-			2,
+			1,
 			0,
 			0
 		],
@@ -19,7 +19,7 @@
 	"modules": [
 		{
 			"type": "data",
-			"uuid": "d7392aa1-574d-49d3-abd1-7e9aca74e49d",
+			"uuid": "db194787-3e99-43c4-b1f1-9cf1c01bd338",
 			"version": [
 				1,
 				0,
@@ -30,18 +30,11 @@
 	"dependencies": [
 		{
 			"version": [
-				2,
+				1,
 				0,
 				0
 			],
-			"uuid": "fd6bfdee-be4e-11eb-8529-0242ac130003"
+			"uuid": "8e8d072e-7990-4124-9bea-e665e256fb43"
 		}
-	],
-	"metadata": {
-		"license": "MiRoar Inc.",
-		"url": "miroar.ca",
-		"authors": [
-			"Hugo Martin-Clément"
-		]
-	}
+	]
 }

@@ -1,0 +1,37 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "miroar:recipecartedeux"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B",
+			"C"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:wool",
+				"data": 4
+			},
+			"B": {
+				"item": "minecraft:wool",
+				"data": 1
+			},
+			"C": {
+				"item": "minecraft:wool",
+				"data": 3
+			}
+		},
+		"result": [
+			{
+				"item": "miroar:cartedeux",
+				"count": 1
+			}
+		]
+	}
+}

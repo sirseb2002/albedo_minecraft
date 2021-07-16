@@ -1,9 +1,9 @@
 {
-	"file_path": "C:\\Users\\antho\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Hugo_RP\\manifest.json",
+	"file_path": "C:\\Users\\seb_r\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Hugo_RP\\manifest.json",
 	"file_type": "manifest_rp",
 	"format_version": 1,
-	"file_uuid": "73cb7c18_598a_4a46_bc16_d5ff17a5305e",
-	"file_version": 18,
+	"file_uuid": "bc3e1a99_2b7f_49db_8864_13eaeebdf599",
+	"file_version": 2,
 	"cache_content": {
 		"children": [
 			{
@@ -14,9 +14,9 @@
 				"open": {
 					"format_version": 2,
 					"header": {
-						"name": "Ressource pack de Hugo",
-						"description": "Tous le travail de Hugo est concentré dans ce pack",
-						"uuid": "fd6bfdee-be4e-11eb-8529-0242ac130003",
+						"name": "pack.name",
+						"description": "pack.description",
+						"uuid": "8e8d072e-7990-4124-9bea-e665e256fb43",
 						"version": [
 							1,
 							0,
@@ -31,163 +31,75 @@
 					"modules": [
 						{
 							"type": "resources",
-							"uuid": "00221159-f066-4f88-8173-3c6298e77294",
+							"uuid": "04ee2649-77c5-4a00-b69f-35dd79b1f1d5",
 							"version": [
 								1,
 								0,
 								0
 							]
 						}
-					],
-					"metadata": {
-						"license": "MiRoar Inc.",
-						"url": "miroar.ca",
-						"authors": [
-							"Hugo Martin-Clément"
-						]
-					}
+					]
 				},
 				"key": "header",
-				"is_minified": true,
-				"children": {
-					"name": "Ressource pack de Hugo",
-					"description": "Tous le travail de Hugo est concentré dans ce pack",
-					"uuid": "fd6bfdee-be4e-11eb-8529-0242ac130003",
-					"version": [
-						1,
-						0,
-						0
-					],
-					"min_engine_version": [
-						1,
-						13,
-						0
-					]
-				}
-			},
-			{
-				"open": {
-					"format_version": 2,
-					"header": {
-						"name": "Ressource pack de Hugo",
-						"description": "Tous le travail de Hugo est concentré dans ce pack",
-						"uuid": "fd6bfdee-be4e-11eb-8529-0242ac130003",
-						"version": [
+				"children": [
+					{
+						"data": "pack.name",
+						"key": "name"
+					},
+					{
+						"data": "pack.description",
+						"key": "description"
+					},
+					{
+						"data": "8e8d072e-7990-4124-9bea-e665e256fb43",
+						"key": "uuid"
+					},
+					{
+						"open": {
+							"name": "pack.name",
+							"description": "pack.description",
+							"uuid": "8e8d072e-7990-4124-9bea-e665e256fb43",
+							"version": [
+								1,
+								0,
+								0
+							],
+							"min_engine_version": [
+								1,
+								13,
+								0
+							]
+						},
+						"key": "version",
+						"is_minified": true,
+						"children": [
 							1,
 							0,
 							0
-						],
-						"min_engine_version": [
+						]
+					},
+					{
+						"key": "min_engine_version",
+						"is_minified": true,
+						"children": [
 							1,
 							13,
 							0
 						]
-					},
-					"modules": [
-						{
-							"type": "resources",
-							"uuid": "00221159-f066-4f88-8173-3c6298e77294",
-							"version": [
-								1,
-								0,
-								0
-							]
-						}
-					],
-					"metadata": {
-						"license": "MiRoar Inc.",
-						"url": "miroar.ca",
-						"authors": [
-							"Hugo Martin-Clément"
-						]
-					}
-				},
-				"key": "modules",
-				"children": [
-					{
-						"open": [
-							{
-								"type": "resources",
-								"uuid": "00221159-f066-4f88-8173-3c6298e77294",
-								"version": [
-									1,
-									0,
-									0
-								]
-							}
-						],
-						"is_minified": true,
-						"children": {
-							"type": "resources",
-							"uuid": "00221159-f066-4f88-8173-3c6298e77294",
-							"version": [
-								1,
-								0,
-								0
-							]
-						}
 					}
 				]
 			},
 			{
-				"open": {
-					"format_version": 2,
-					"header": {
-						"name": "Ressource pack de Hugo",
-						"description": "Tous le travail de Hugo est concentré dans ce pack",
-						"uuid": "fd6bfdee-be4e-11eb-8529-0242ac130003",
+				"key": "modules",
+				"is_minified": true,
+				"children": [
+					{
+						"type": "resources",
+						"uuid": "04ee2649-77c5-4a00-b69f-35dd79b1f1d5",
 						"version": [
 							1,
 							0,
 							0
-						],
-						"min_engine_version": [
-							1,
-							13,
-							0
-						]
-					},
-					"modules": [
-						{
-							"type": "resources",
-							"uuid": "00221159-f066-4f88-8173-3c6298e77294",
-							"version": [
-								1,
-								0,
-								0
-							]
-						}
-					],
-					"metadata": {
-						"license": "MiRoar Inc.",
-						"url": "miroar.ca",
-						"authors": [
-							"Hugo Martin-Clément"
-						]
-					}
-				},
-				"key": "metadata",
-				"children": [
-					{
-						"data": "MiRoar Inc.",
-						"key": "license"
-					},
-					{
-						"data": "miroar.ca",
-						"key": "url"
-					},
-					{
-						"open": {
-							"license": "MiRoar Inc.",
-							"url": "miroar.ca",
-							"authors": [
-								"Hugo Martin-Clément"
-							]
-						},
-						"key": "authors",
-						"is_minified": true,
-						"children": [
-							"Hugo Martin-Clément"
 						]
 					}
 				]

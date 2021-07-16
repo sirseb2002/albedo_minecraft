@@ -1,0 +1,147 @@
+{
+	"file_path": "C:\\Users\\seb_r\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Hugo_RP\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "493710d2_f606_4c75_8c79_1f830fab1311",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"cartedeux": {
+							"textures": [
+								"textures/items/cartedeux"
+							]
+						},
+						"tpfin": {
+							"textures": [
+								"textures/items/tpnexus"
+							]
+						},
+						"certificatmun": {
+							"textures": [
+								"textures/items/certificatmun"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"open": {
+							"cartedeux": {
+								"textures": [
+									"textures/items/cartedeux"
+								]
+							},
+							"tpfin": {
+								"textures": [
+									"textures/items/tpnexus"
+								]
+							},
+							"certificatmun": {
+								"textures": [
+									"textures/items/certificatmun"
+								]
+							}
+						},
+						"key": "cartedeux",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/cartedeux"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/cartedeux"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"cartedeux": {
+								"textures": [
+									"textures/items/cartedeux"
+								]
+							},
+							"tpfin": {
+								"textures": [
+									"textures/items/tpnexus"
+								]
+							},
+							"certificatmun": {
+								"textures": [
+									"textures/items/certificatmun"
+								]
+							}
+						},
+						"key": "tpfin",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/tpnexus"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/tpnexus"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"cartedeux": {
+								"textures": [
+									"textures/items/cartedeux"
+								]
+							},
+							"tpfin": {
+								"textures": [
+									"textures/items/tpnexus"
+								]
+							},
+							"certificatmun": {
+								"textures": [
+									"textures/items/certificatmun"
+								]
+							}
+						},
+						"key": "certificatmun",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/certificatmun"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/certificatmun"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

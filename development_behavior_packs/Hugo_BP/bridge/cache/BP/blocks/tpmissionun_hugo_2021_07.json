@@ -1,0 +1,345 @@
+{
+	"file_path": "C:\\Users\\seb_r\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Hugo_BP\\blocks\\tpmissionun_hugo_2021_07.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "4d655f17_f9a6_48d1_a73e_eebac5e726fe",
+	"file_version": 52,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "miroar:tpmissionun_hugo_2021_07",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "opaque",
+									"texture": "tpmissionun"
+								}
+							},
+							"minecraft:on_interact": {
+								"event": "tpmun"
+							},
+							"minecraft:display_name": "Mission 1"
+						},
+						"events": {
+							"tpmun": {
+								"run_command": {
+									"command": [
+										"function clearinventaire_hugo_2021_07",
+										"function tp_mission_01",
+										"function tp_mission_02"
+									],
+									"target": "other"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "miroar:tpmissionun_hugo_2021_07",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "tpmissionun"
+									}
+								},
+								"minecraft:on_interact": {
+									"event": "tpmun"
+								},
+								"minecraft:display_name": "Mission 1"
+							},
+							"events": {
+								"tpmun": {
+									"run_command": {
+										"command": [
+											"function clearinventaire_hugo_2021_07",
+											"function tp_mission_01",
+											"function tp_mission_02"
+										],
+										"target": "other"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "miroar:tpmissionun_hugo_2021_07",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "miroar:tpmissionun_hugo_2021_07",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "tpmissionun"
+									}
+								},
+								"minecraft:on_interact": {
+									"event": "tpmun"
+								},
+								"minecraft:display_name": "Mission 1"
+							},
+							"events": {
+								"tpmun": {
+									"run_command": {
+										"command": [
+											"function clearinventaire_hugo_2021_07",
+											"function tp_mission_01",
+											"function tp_mission_02"
+										],
+										"target": "other"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "opaque",
+									"texture": "tpmissionun"
+								}
+							},
+							"minecraft:on_interact": {
+								"event": "tpmun"
+							},
+							"minecraft:display_name": "Mission 1"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "miroar:tpmissionun_hugo_2021_07",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "tpmissionun"
+									}
+								},
+								"minecraft:on_interact": {
+									"event": "tpmun"
+								},
+								"minecraft:display_name": "Mission 1"
+							},
+							"events": {
+								"tpmun": {
+									"run_command": {
+										"command": [
+											"function clearinventaire_hugo_2021_07",
+											"function tp_mission_01",
+											"function tp_mission_02"
+										],
+										"target": "other"
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"tpmun": {
+										"run_command": {
+											"command": [
+												"function clearinventaire_hugo_2021_07",
+												"function tp_mission_01",
+												"function tp_mission_02"
+											],
+											"target": "other"
+										}
+									}
+								},
+								"key": "tpmun",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"function clearinventaire_hugo_2021_07",
+													"function tp_mission_01",
+													"function tp_mission_02"
+												],
+												"target": "other"
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"function clearinventaire_hugo_2021_07",
+														"function tp_mission_01",
+														"function tp_mission_02"
+													],
+													"target": "other"
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"function clearinventaire_hugo_2021_07",
+													"function tp_mission_01",
+													"function tp_mission_02"
+												]
+											},
+											{
+												"data": "other",
+												"key": "target"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

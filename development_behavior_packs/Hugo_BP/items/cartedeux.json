@@ -1,0 +1,33 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "miroar:cartedeux"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "cartedeux"
+			},
+			"minecraft:display_name": {
+				"value": "Id Mission 2"
+			},
+			"minecraft:food": {
+				"on_consume": {
+					"event": "gradeupdeux"
+				}
+			},
+			"minecraft:use_duration": 0.1,
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"gradeupdeux": {
+				"run_command": {
+					"command": [
+						"function deverouillemissiondeux"
+					]
+				}
+			}
+		}
+	}
+}

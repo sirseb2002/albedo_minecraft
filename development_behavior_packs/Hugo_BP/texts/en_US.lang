@@ -1,4 +1,2 @@
-##bridge-file-version: #0
-pack.name=MiRoaR Projet Vierge
-pack.description=Un projet vierge pour tester tes compétences
-tile.miroar:blockvierge.name = Nom aléatoire pour le block vierge
+pack.name=Hugo_BP
+pack.description=Server Behavior Pack

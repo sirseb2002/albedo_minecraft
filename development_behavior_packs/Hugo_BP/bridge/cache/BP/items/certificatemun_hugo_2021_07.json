@@ -1,0 +1,179 @@
+{
+	"file_path": "C:\\Users\\seb_r\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Hugo_BP\\items\\certificatemun_hugo_2021_07.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "0e3b955e_14d2_4c55_85be_5066e73df983",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "miroar:certificatemun_hugo_2021_07"
+						},
+						"components": {
+							"minecraft:icon": {
+								"texture": "certificatmun"
+							},
+							"minecraft:display_name": {
+								"value": "Certificat Mission 1"
+							},
+							"minecraft:food": {
+								"on_consume": {
+									"event": "completmun"
+								}
+							},
+							"minecraft:use_duration": 0.1,
+							"minecraft:use_animation": "eat"
+						},
+						"events": {
+							"completmun": {
+								"run_command": {
+									"command": [
+										"function munComplete_hugo_2021_07"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "miroar:certificatemun_hugo_2021_07"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "certificatmun"
+								},
+								"minecraft:display_name": {
+									"value": "Certificat Mission 1"
+								},
+								"minecraft:food": {
+									"on_consume": {
+										"event": "completmun"
+									}
+								},
+								"minecraft:use_duration": 0.1,
+								"minecraft:use_animation": "eat"
+							},
+							"events": {
+								"completmun": {
+									"run_command": {
+										"command": [
+											"function munComplete_hugo_2021_07"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "miroar:certificatemun_hugo_2021_07"
+						}
+					},
+					{
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": {
+								"texture": "certificatmun"
+							},
+							"minecraft:display_name": {
+								"value": "Certificat Mission 1"
+							},
+							"minecraft:food": {
+								"on_consume": {
+									"event": "completmun"
+								}
+							},
+							"minecraft:use_duration": 0.1,
+							"minecraft:use_animation": "eat"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "miroar:certificatemun_hugo_2021_07"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "certificatmun"
+								},
+								"minecraft:display_name": {
+									"value": "Certificat Mission 1"
+								},
+								"minecraft:food": {
+									"on_consume": {
+										"event": "completmun"
+									}
+								},
+								"minecraft:use_duration": 0.1,
+								"minecraft:use_animation": "eat"
+							},
+							"events": {
+								"completmun": {
+									"run_command": {
+										"command": [
+											"function munComplete_hugo_2021_07"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"completmun": {
+										"run_command": {
+											"command": [
+												"function munComplete_hugo_2021_07"
+											]
+										}
+									}
+								},
+								"key": "completmun",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"function munComplete_hugo_2021_07"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"function munComplete_hugo_2021_07"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"function munComplete_hugo_2021_07"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
