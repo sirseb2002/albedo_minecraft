@@ -1,0 +1,34 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "miroar:certificatemunhugotwentytwentyoneseven"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "certificatmun"
+			},
+			"minecraft:display_name": {
+				"value": "Certificat Mission 1"
+			},
+			"minecraft:food": {
+				"on_consume": {
+					"event": "completmun"
+				},
+				"can_always_eat":true
+			},
+			"minecraft:use_duration": 0.1,
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"completmun": {
+				"run_command": {
+					"command": [
+						"function munCompletehugotwentytwentyoneseven"
+					]
+				}
+			}
+		}
+	}
+}

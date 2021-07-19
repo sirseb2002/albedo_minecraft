@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "29f21c87_d84d_41af_af4b_9a4f24242a0c",
-	"file_version": 11,
+	"file_version": 13,
 	"cache_content": {
 		"children": [
 			{
@@ -15,7 +15,7 @@
 					"format_version": "1.16.100",
 					"minecraft:item": {
 						"description": {
-							"identifier": "miroar:tpfinmissionun_hugo_2021_07"
+							"identifier": "miroar:tpfinmissionunhugotwentytwentyoneseven"
 						},
 						"components": {
 							"minecraft:icon": {
@@ -37,7 +37,7 @@
 								"run_command": {
 									"command": [
 										"function tp_fin_mission_un",
-										"function clearinventaire_hugo_2021_07"
+										"function clearinventairehugotwentytwentyoneseven"
 									]
 								}
 							}
@@ -47,10 +47,40 @@
 				"key": "minecraft:item",
 				"children": [
 					{
+						"open": {
+							"description": {
+								"identifier": "miroar:tpfinmissionunhugotwentytwentyoneseven"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "tpfin"
+								},
+								"minecraft:display_name": {
+									"value": "Fin de la mission un"
+								},
+								"minecraft:food": {
+									"on_consume": {
+										"event": "tpfin"
+									}
+								},
+								"minecraft:use_duration": 0.1,
+								"minecraft:use_animation": "eat"
+							},
+							"events": {
+								"tpfin": {
+									"run_command": {
+										"command": [
+											"function tp_fin_mission_un",
+											"function clearinventairehugotwentytwentyoneseven"
+										]
+									}
+								}
+							}
+						},
 						"key": "description",
 						"is_minified": true,
 						"children": {
-							"identifier": "miroar:tpfinmissionun_hugo_2021_07"
+							"identifier": "miroar:tpfinmissionunhugotwentytwentyoneseven"
 						}
 					},
 					{
@@ -75,7 +105,7 @@
 					{
 						"open": {
 							"description": {
-								"identifier": "miroar:tpfinmissionun_hugo_2021_07"
+								"identifier": "miroar:tpfinmissionunhugotwentytwentyoneseven"
 							},
 							"components": {
 								"minecraft:icon": {
@@ -97,7 +127,7 @@
 									"run_command": {
 										"command": [
 											"function tp_fin_mission_un",
-											"function clearinventaire_hugo_2021_07"
+											"function clearinventairehugotwentytwentyoneseven"
 										]
 									}
 								}
@@ -111,7 +141,7 @@
 										"run_command": {
 											"command": [
 												"function tp_fin_mission_un",
-												"function clearinventaire_hugo_2021_07"
+												"function clearinventairehugotwentytwentyoneseven"
 											]
 										}
 									}
@@ -123,7 +153,7 @@
 											"run_command": {
 												"command": [
 													"function tp_fin_mission_un",
-													"function clearinventaire_hugo_2021_07"
+													"function clearinventairehugotwentytwentyoneseven"
 												]
 											}
 										},
@@ -133,14 +163,14 @@
 												"open": {
 													"command": [
 														"function tp_fin_mission_un",
-														"function clearinventaire_hugo_2021_07"
+														"function clearinventairehugotwentytwentyoneseven"
 													]
 												},
 												"key": "command",
 												"is_minified": true,
 												"children": [
 													"function tp_fin_mission_un",
-													"function clearinventaire_hugo_2021_07"
+													"function clearinventairehugotwentytwentyoneseven"
 												]
 											}
 										]

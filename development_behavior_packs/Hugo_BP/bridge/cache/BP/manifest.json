@@ -3,7 +3,7 @@
 	"file_type": "manifest_bp",
 	"format_version": 1,
 	"file_uuid": "dbb14556_a9f5_4ddb_8030_bcf74d6664c4",
-	"file_version": 2,
+	"file_version": 4,
 	"cache_content": {
 		"children": [
 			{
@@ -20,7 +20,7 @@
 						"version": [
 							1,
 							0,
-							0
+							1
 						],
 						"min_engine_version": [
 							1,
@@ -44,7 +44,7 @@
 							"version": [
 								1,
 								0,
-								0
+								1
 							],
 							"uuid": "8e8d072e-7990-4124-9bea-e665e256fb43"
 						}
@@ -72,7 +72,7 @@
 							"version": [
 								1,
 								0,
-								0
+								1
 							],
 							"min_engine_version": [
 								1,
@@ -85,7 +85,7 @@
 						"children": [
 							1,
 							0,
-							0
+							1
 						]
 					},
 					{
@@ -115,16 +115,81 @@
 				]
 			},
 			{
-				"key": "dependencies",
-				"is_minified": true,
-				"children": [
-					{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "pack.name",
+						"description": "pack.description",
+						"uuid": "77607e6b-34cd-42f7-85c9-890afb4e4646",
 						"version": [
 							1,
 							0,
-							0
+							1
 						],
-						"uuid": "8e8d072e-7990-4124-9bea-e665e256fb43"
+						"min_engine_version": [
+							1,
+							13,
+							0
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "db194787-3e99-43c4-b1f1-9cf1c01bd338",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								1
+							],
+							"uuid": "8e8d072e-7990-4124-9bea-e665e256fb43"
+						}
+					]
+				},
+				"key": "dependencies",
+				"children": [
+					{
+						"open": [
+							{
+								"version": [
+									1,
+									0,
+									1
+								],
+								"uuid": "8e8d072e-7990-4124-9bea-e665e256fb43"
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"version": [
+										1,
+										0,
+										1
+									],
+									"uuid": "8e8d072e-7990-4124-9bea-e665e256fb43"
+								},
+								"key": "version",
+								"is_minified": true,
+								"children": [
+									1,
+									0,
+									1
+								]
+							},
+							{
+								"data": "8e8d072e-7990-4124-9bea-e665e256fb43",
+								"key": "uuid"
+							}
+						]
 					}
 				]
 			}

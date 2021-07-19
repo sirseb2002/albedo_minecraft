@@ -3,7 +3,7 @@
 	"file_type": "manifest_rp",
 	"format_version": 1,
 	"file_uuid": "bc3e1a99_2b7f_49db_8864_13eaeebdf599",
-	"file_version": 2,
+	"file_version": 4,
 	"cache_content": {
 		"children": [
 			{
@@ -20,7 +20,7 @@
 						"version": [
 							1,
 							0,
-							0
+							1
 						],
 						"min_engine_version": [
 							1,
@@ -35,7 +35,7 @@
 							"version": [
 								1,
 								0,
-								0
+								1
 							]
 						}
 					]
@@ -62,7 +62,7 @@
 							"version": [
 								1,
 								0,
-								0
+								1
 							],
 							"min_engine_version": [
 								1,
@@ -75,7 +75,7 @@
 						"children": [
 							1,
 							0,
-							0
+							1
 						]
 					},
 					{
@@ -90,16 +90,76 @@
 				]
 			},
 			{
-				"key": "modules",
-				"is_minified": true,
-				"children": [
-					{
-						"type": "resources",
-						"uuid": "04ee2649-77c5-4a00-b69f-35dd79b1f1d5",
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "pack.name",
+						"description": "pack.description",
+						"uuid": "8e8d072e-7990-4124-9bea-e665e256fb43",
 						"version": [
 							1,
 							0,
+							1
+						],
+						"min_engine_version": [
+							1,
+							13,
 							0
+						]
+					},
+					"modules": [
+						{
+							"type": "resources",
+							"uuid": "04ee2649-77c5-4a00-b69f-35dd79b1f1d5",
+							"version": [
+								1,
+								0,
+								1
+							]
+						}
+					]
+				},
+				"key": "modules",
+				"children": [
+					{
+						"open": [
+							{
+								"type": "resources",
+								"uuid": "04ee2649-77c5-4a00-b69f-35dd79b1f1d5",
+								"version": [
+									1,
+									0,
+									1
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "resources",
+								"key": "type"
+							},
+							{
+								"data": "04ee2649-77c5-4a00-b69f-35dd79b1f1d5",
+								"key": "uuid"
+							},
+							{
+								"open": {
+									"type": "resources",
+									"uuid": "04ee2649-77c5-4a00-b69f-35dd79b1f1d5",
+									"version": [
+										1,
+										0,
+										1
+									]
+								},
+								"key": "version",
+								"is_minified": true,
+								"children": [
+									1,
+									0,
+									1
+								]
+							}
 						]
 					}
 				]

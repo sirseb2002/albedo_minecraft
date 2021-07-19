@@ -3,7 +3,7 @@
 	"file_type": "client_block",
 	"format_version": 1,
 	"file_uuid": "d4789199_0971_439b_856b_841510aa7520",
-	"file_version": 6,
+	"file_version": 7,
 	"cache_content": {
 		"children": [
 			{
@@ -13,7 +13,7 @@
 						1,
 						0
 					],
-					"miroar:tpmissionun_Hugo_2021_07": {
+					"miroar:tpmissionunhugotwentytwentyoneseven": {
 						"sound": "bamboo",
 						"textures": "tpmissionun"
 					}
@@ -33,12 +33,12 @@
 						1,
 						0
 					],
-					"miroar:tpmissionun_Hugo_2021_07": {
+					"miroar:tpmissionunhugotwentytwentyoneseven": {
 						"sound": "bamboo",
 						"textures": "tpmissionun"
 					}
 				},
-				"key": "miroar:tpmissionun_Hugo_2021_07",
+				"key": "miroar:tpmissionunhugotwentytwentyoneseven",
 				"is_minified": true,
 				"children": {
 					"sound": "bamboo",
